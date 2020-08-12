@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background: white;
+}
+
+.body{
+    overflow: auto;
+}
+
+
+/* Side Bar styling */
+.side-bar{
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #212121;
+    width: 14%;
+    height: 100vh;
+    transition: all 0.3s ease;
+    box-shadow: 5px 0px  10px #212121;
+}
+.list-section{
+    padding-left: 10%;
+    height: 10%;
+}
+.expand-icon{
+    float: left;
+    transition: all 0.3s ease;
+}
+.expand-icon a i{
+    color: white;
+    padding-top: 8vh;
+    padding-left: 5vw;
+    transition: all 0.3s ease;
+}
+.row{
+    overflow: auto;
+}
+.row i{
+    color: white;
+    float: left;
+    size: 1vmax;
+    font-size: 1vmax;
+    padding-right: 4px;
+    transition: all 0.3s ease;
+}
+.row h3{
+    float: left;
+    font-size: 1.1vmax;
+    padding-left: 4px;
+    margin-top: -2.3px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.collapse{
+    width: 5% !important;
+    transition: all 0.3s ease;
+}
+.collapse .expand-icon a i{
+    color: white;
+    padding-top: 8vh;
+    padding-left: 2vw;
+    transition: all 0.3s ease;
+} 
+.collapse .list-section a h3{
+    display: none;
+    transition: all 0.3s ease;
+}
+.collapse .list-section a i{
+    transition: all 0.3s ease;
+    font-size: 1.5vmax;
+    padding-left: 30%;
+}
+/* Side bar styling ends */
+
+/* Main container styling */
+.main-container{
+    float: right;
+    width: 86%;
+    transition: all 0.3s ease;
+}
+.expand-container{
+    width: 95% !important;
+    transition: all 0.3s ease;
+}
+/* Main container styling ends*/
+
+/* Top nav bar styling */
+.top-nav-bar{
+    overflow: auto;
+    background-color: #212121;
+    padding: 1.5%;
+    padding-bottom: 0% !important;
+}
+.top-nav-bar .main-ques{
+    color: white;
+    float: left;
+}
+.top-nav-bar .home-icon{
+    vertical-align: middle;
+    float: right;
+    color: white;
+    font-size: 32px;
+    margin-top: 2px;
+}
+
+/* Top nav bar styling ends */
+
+/* Sticky nav bar */
+.nav{
+    list-style:none;
+    margin:0;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    color: lightgrey;
+}
+.nav :hover{
+    color: white;
+}
+#nav-bar{
+    overflow: hidden;
+    background-color: #212121;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: inherit;
+    /* box-shadow: 0px 3px 10px black; */
+  }
+/* Sticky nav bar ends */
+.content{
+    background-color: white;
+    padding-top: 9%;
+    padding-left: 9%;
+}
+.topic{
+    margin-bottom: 80px;
+}
+.topic .heading h2{
+    font-size: 28px;
+}
+.topic .details{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 990px) {
+    .main-container{  
+        width: 100%;
+    }
+    .collapse{
+        width: 0%;
+        display: none;
+        visibility: hidden;
+    }
+    .side-bar{
+        width: 0%;
+        display: none;
+        visibility: hidden;
+    }
+  }
