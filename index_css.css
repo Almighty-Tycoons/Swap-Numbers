@@ -43,7 +43,8 @@ body{
     float: left;
     transition: all 0.3s ease;
 }
-.expand-icon a i{
+.expand-icon i{
+    cursor: pointer;
     color: white;
     padding-top: 8vh;
     padding-left: 5vw;
@@ -72,7 +73,7 @@ body{
     width: 5% !important;
     transition: all 0.3s ease;
 }
-.collapse .expand-icon a i{
+.collapse .expand-icon i{
     color: white;
     padding-top: 8vh;
     padding-left: 2vw;
