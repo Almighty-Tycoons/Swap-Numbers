@@ -29,11 +29,11 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    background: #212121;
+    background: #46445a;
     width: 14%;
     height: 100vh;
     transition: all 0.3s ease;
-    box-shadow: 5px 5px  10px #212121;
+/*     box-shadow: 5px 5px  10px #212121; */
 }
 .list-section{
     padding-left: 10%;
@@ -45,7 +45,7 @@ body{
 }
 .expand-icon i{
     cursor: pointer;
-    color: white;
+    color: #000;
     padding-top: 8vh;
     padding-left: 5vw;
     transition: all 0.3s ease;
@@ -54,7 +54,7 @@ body{
     overflow: auto;
 }
 .row i{
-    color: white;
+    color: #000;
     float: left;
     size: 1vmax;
     font-size: 1vmax;
@@ -106,7 +106,7 @@ body{
 .top-nav-bar{
     transition: all 0.3s ease;
     overflow: auto;
-    background-color: #212121;
+    background-color: #46445a;
     padding: 1.5%;
     padding-bottom: 0% !important;
 }
@@ -137,6 +137,9 @@ body{
 }
 .nav li{
     display:inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.5rem;
 }
 .nav a{
     display:inline-block;
@@ -148,7 +151,7 @@ body{
 #nav-bar{
     transition: all 0.3s ease;
     overflow: hidden;
-    background-color: #212121;
+    background-color: #46445a;
 }
 .sticky {
     transition: all 0.3s ease;
@@ -174,24 +177,9 @@ body{
     text-align: start;
 }
 .topic .details{
-    margin-top: 10px;
-    background-color: #212121;
-    margin-left: 30px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: inset 5px 0px 40px 20px #070707;
-    transition: all 0.3s ease;
-}
-.topic .details p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    color: white;
-    transition: all 0.3s ease;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
     padding-right: 50px;
-    transition: all 0.3s ease;
 }
 
 @media only screen and (max-width: 990px) {
