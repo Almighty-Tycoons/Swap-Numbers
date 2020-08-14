@@ -9,10 +9,20 @@ function changeClass(id, className) {
 function displayElements() {
     var a = Number(document.getElementById('inputV1').value);
     var b = Number(document.getElementById('inputV2').value);
+    if (a == "" || b == "") {
+        location.reload();
+        alert("Please provide inputs");
+        return;
+    }
+    if (!parseFloat(a) || !parseFloat(b)) {
+        location.reload();
+        alert("Please provide numbers only");
+        return;
+    }
     //this.createBoxes()
     showCode();
     var c = "line"
-    //this.convertFromStringToNumber()
+        //this.convertFromStringToNumber()
     changeClass(c + "1", 'showDivInRed code-text');
     changeClass('next', 'show button-style');
     changeClass('next1', 'show button-style bottom-button');
@@ -34,6 +44,7 @@ function createBoxes() {
 }
 
 var d = 1;
+
 function Execution() {
 
 
