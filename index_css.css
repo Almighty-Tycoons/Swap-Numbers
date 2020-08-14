@@ -275,3 +275,86 @@ body{
         transition: all 0.3s ease;
     }
 }
+
+
+
+/* =======  Quiz page styling  ========= */
+/* Main container Quiz styling */
+.main-container-quiz {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.expand-container-quiz {
+  transition: all 0.3s ease;
+  width: 100% !important;
+}
+
+/* Main container Quiz styling ends*/
+.answers {
+  margin: 20px;
+}
+
+.answers input {
+  margin: 10px;
+}
+
+.quiz-button {
+  background-color: #46445a;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  border-color: #000;
+  font-size: 1rem;
+}
+
+.quiz-button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.try-again {
+  margin-top: 20px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #000;
+  font-size: 1rem;
+}
+
+.try-again:hover {
+  color: #c4fb6d;
+  border-color: #c4fb6d;
+}
+
+.try-div {
+  text-align: center;
+}
+
+.restlt {
+  width: 100%;
+  color: #fff;
+  background-color: #46445a;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 15px;
+}
+
+#correct-answer {
+  margin: 5%;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: #c4fb6d;
+  font-style: bold;
+}
+
+/* =======  Quiz page styling  ========= */
