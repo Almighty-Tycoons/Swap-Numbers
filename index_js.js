@@ -41,6 +41,7 @@ function check() {
 if(count === 5){
   //alert("uytcuycutxs");
   document.getElementById("number-correct").innerHTML = "Your score = " + count+"   Conguratulations !";
+  document.getElementById("after-submit").hidden = false;
   document.getElementById("try-btn").hidden = true;
 }
 else{
