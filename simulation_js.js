@@ -77,15 +77,15 @@ function Execution() {
         createBoxes();
         document.getElementById("A").innerHTML = "" + a;
         document.getElementById("B").innerHTML = "" + b;
-        document.getElementById("box-B").classList.add("green");
-        document.getElementById("box-A").classList.add("green");
+        document.getElementById("box-B").classList.add("yellow");
+        document.getElementById("box-A").classList.add("yellow");
 
     }
     if (d == 3) {
 
         temp = a;
         document.getElementById("temp").innerHTML = "" + temp;
-        document.getElementById("box-temp").classList.add("yellow");
+        document.getElementById("box-temp").classList.add("green");
         document.getElementById('A').innerHTML = "" + a;
         ///alert(temp1);
 
@@ -102,8 +102,9 @@ function Execution() {
         b = temp;
         document.getElementById('B').innerHTML = "" + b;
         document.getElementById("box-B").classList.add("green");
-        document.getElementById("box-temp").classList.remove("yellow");
-        document.getElementById("temp").innerHTML = "";
+        document.getElementById("box-temp").classList.remove("green");
+        document.getElementById("box-temp").classList.add("yellow");
+        document.getElementById("temp").innerHTML = "" + a;
     }
 
     if (d == 6) {
