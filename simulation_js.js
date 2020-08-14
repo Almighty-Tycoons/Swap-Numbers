@@ -9,15 +9,32 @@ function changeClass(id, className) {
 function displayElements() {
     var a = Number(document.getElementById('inputV1').value);
     var b = Number(document.getElementById('inputV2').value);
-    if (a == "" || b == "") {
-        location.reload();
-        alert("Please provide inputs");
-        return;
+    if (window.innerWidth >= 801) {
+        if (a == "" || b == "") {
+            location.reload();
+            alert("Please provide inputs");
+            return;
+        }
+        if (!parseFloat(a) || !parseFloat(b)) {
+            location.reload();
+            alert("Please provide numbers only");
+            return;
+        }
     }
-    if (!parseFloat(a) || !parseFloat(b)) {
-        location.reload();
-        alert("Please provide numbers only");
-        return;
+
+    if (window.innerWidth <= 800) {
+        var a = Number(document.getElementById('inputV3').value);
+        var b = Number(document.getElementById('inputV4').value);
+        if (a == "" || b == "") {
+            location.reload();
+            alert("Please provide inputs");
+            return;
+        }
+        if (!parseFloat(a) || !parseFloat(b)) {
+            location.reload();
+            alert("Please provide numbers only");
+            return;
+        }
     }
     //this.createBoxes()
     showCode();
@@ -26,10 +43,6 @@ function displayElements() {
     changeClass(c + "1", 'showDivInRed code-text');
     changeClass('next', 'show button-style');
     changeClass('next1', 'show button-style bottom-button');
-
-
-
-
 
     //document.getElementById("A").innerHTML=""+a;
     //document.getElementById("B").innerHTML=""+b;
@@ -47,9 +60,14 @@ var d = 1;
 
 function Execution() {
 
+    if (window.innerWidth >= 801) {
+        var a = Number(document.getElementById('inputV1').value);
+        var b = Number(document.getElementById('inputV2').value);
+    } else {
+        var a = Number(document.getElementById('inputV3').value);
+        var b = Number(document.getElementById('inputV4').value);
+    }
 
-    var a = Number(document.getElementById('inputV1').value);
-    var b = Number(document.getElementById('inputV2').value);
     changeClass("line" + d, "line code-text");
     d = d + 1;
     var temp1 = a;
@@ -68,8 +86,7 @@ function Execution() {
         temp = a;
         document.getElementById("temp").innerHTML = "" + temp;
         document.getElementById("box-temp").classList.add("yellow");
-        document.getElementById('A').innerHTML = "";
-        document.getElementById("box-A").classList.remove("green");
+        document.getElementById('A').innerHTML = "" + a;
         ///alert(temp1);
 
     }
@@ -77,8 +94,7 @@ function Execution() {
         a = b;
         document.getElementById('A').innerHTML = "" + a;
         document.getElementById("box-A").classList.add("green");
-        document.getElementById("box-B").classList.remove("green");
-        document.getElementById('B').innerHTML = "";
+        document.getElementById('B').innerHTML = "" + a;
         //alert("temp1")
     }
     if (d == 5) {
