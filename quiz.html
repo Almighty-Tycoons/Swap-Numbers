@@ -2,153 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="quiz_css.css">
-    <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".expand-icon").click(function() {
-                $(".side-bar").toggleClass("collapse");
-                $(".main-container-quiz").toggleClass("expand-container-quiz");
-                if ($(".fas").hasClass("fa-arrow-right")) {
-                    $(".fas").addClass('fa-arrow-left').removeClass('fa-arrow-right');
-                    return
-                }
-                if ($(".fas").hasClass("fa-arrow-left")) {
-                    $(".fas").addClass('fa-arrow-right').removeClass('fa-arrow-left');
-                }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="quiz_css.css">
+  <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".expand-icon").click(function() {
+        $(".side-bar").toggleClass("collapse");
+        $(".main-container-quiz").toggleClass("expand-container-quiz");
+        if ($(".fas").hasClass("fa-arrow-right")) {
+          $(".fas").addClass('fa-arrow-left').removeClass('fa-arrow-right');
+          return
+        }
+        if ($(".fas").hasClass("fa-arrow-left")) {
+          $(".fas").addClass('fa-arrow-right').removeClass('fa-arrow-left');
+        }
 
-            });
-            // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {
-                myFunction()
-            };
+      });
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {
+        myFunction()
+      };
 
-            // Get the navbar
-            var navbar = document.getElementById("nav-bar");
+      // Get the navbar
+      var navbar = document.getElementById("nav-bar");
 
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
 
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        });
-    </script>
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    });
+  </script>
 
-    <title>Document</title>
+  <title>Document</title>
 </head>
 
 <body>
-    <!-- Whole-body -->
-    <div class="body">
-        <!-- Main body -->
-        <div class="main-container-quiz">
-            <!-- Top nav bar -->
-            <div class="top-nav-bar">
-                <h1 class="main-ques">
-                    Swapping
-                </h1>
-                <a href="index.html"><i class="fas fa-home home-icon"></i></a>
+  <!-- Whole-body -->
+  <div class="body">
+    <!-- Main body -->
+    <div class="main-container-quiz">
+      <!-- Top nav bar -->
+      <div class="top-nav-bar">
+        <h1 class="main-ques">
+          Swapping
+        </h1>
+        <a href="#"><i class="fas fa-home home-icon"></i></a>
+      </div>
+      <!-- Top nav bar ends -->
+      <div id="nav-bar">
+        <ul class="nav">
+          <li class="listItem"><a href="index.html">Lab Content</a></li>
+          <li class="listItem"><a href="#">Simulation</a></li>
+          <li class="listItem"><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h1>Quiz</h1> <br>
+        <hr><br>
+        <form class="" action="" method="" name="quiz" id="quiz">
+
+
+          <div id="" class="">
+            <h4>Q 1 - Special symbol permitted with in the identifier name.</h4>
+            <div class="answers">
+              <label for="a11"><input id="a11"type="radio" name="ques1" value="$">$</label>
+              <label for="a12"><input id="a12"type="radio" name="ques1" value="@">@</label>
+              <label id="a1"><input type="radio" name="ques1" value="_">_</label>
+              <label for="a13"><input id="a13"type="radio" name="ques1" value=".">.</label>
             </div>
-            <!-- Top nav bar ends -->
-            <div id="nav-bar">
-                <ul class="nav">
-                    <li class="listItem"><a href="index.html">Lab Content</a></li>
-                    <li class="listItem"><a href="simulation.html">Simulation</a></li>
-                    <li class="listItem"><a href="quiz.html">Quiz</a></li>
-                </ul>
+          </div>
+
+          <div id="" class="">
+            <h4>Q 2 - How many variables will be assigned for swapping of two numbers using third variable ?</h4>
+            <div class="answers">
+              <label for="a21"><input id="a21" type="radio" name="ques2" value="1">1</label>
+              <label id="a2"><input type="radio" name="ques2" value="3">3</label>
+              <label for="a22"><input id="a22" type="radio" name="ques2" value="6">6</label>
+              <label for="a23"><input id="a23" type="radio" name="ques2" value="Non of them">Non of them</label>
             </div>
+          </div>
 
-            <div class="content">
-                <h1>Quiz</h1> <br>
-                <hr><br>
-                <form class="" action="" method="" name="quiz" id="quiz">
-
-
-                    <div id="" class="">
-                        <h4>Q 1 - Special symbol permitted with in the identifier name.</h4>
-                        <div class="answers">
-                            <p><input type="radio" name="ques1" value="$">$</p>
-                            <p><input type="radio" name="ques1" value="@">@</p>
-                            <p id="a1"><input type="radio" name="ques1" value="_">_</p>
-                            <p><input type="radio" name="ques1" value=".">.</p>
-                        </div>
-                    </div>
-
-                    <div id="" class="">
-                        <h4>Q 2 - How many variables will be assigned for swapping of two numbers using third variable ?</h4>
-                        <div class="answers">
-                            <p><input type="radio" name="ques2" value="1">1</p>
-                            <p id="a2"><input type="radio" name="ques2" value="3">3</p>
-                            <p><input type="radio" name="ques2" value="6">6</p>
-                            <p><input type="radio" name="ques2" value="Non of them">Non of them</p>
-                        </div>
-                    </div>
-
-                    <div id="" class="">
-                        <h4>Q 3 - What will be the data type of the variables ?</h4>
-                        <div class="answers">
-                            <p id="a3"><input type="radio" name="ques3" value="Only same data type">Only same data type</p>
-                            <p><input type="radio" name="ques3" value="May be same data type">May be same data type</p>
-                            <p><input type="radio" name="ques3" value="Diffrent data type">Diffrent data type</p>
-                            <p><input type="radio" name="ques3" value="Non of above">Non of above</p>
-                        </div>
-                    </div>
-
-                    <div id="" class="">
-                        <h4>Q 4 - If we assign two variable int and one variable float then what type of error will perform in that program ?</h4>
-                        <div class="answers">
-                            <p><input type="radio" name="ques4" value="Run time error">Run time error</p>
-                            <p id="a4"><input type="radio" name="ques4" value="Compile time error">Compile time error</p>
-                            <p><input type="radio" name="ques4" value="Logical error">Logical error</p>
-                            <p><input type="radio" name="ques4" value="Non of above">Non of above</p>
-                        </div>
-                    </div>
-
-                    <div id="" class="">
-                        <h4>Q 5 - While swapping of two variable which side of the variable's vlue assigneed to which side of variable ?</h4>
-                        <div class="answers">
-                            <p><input type="radio" name="ques5" value="Left to Right">Left to Right</p>
-                            <p id="a5"><input type="radio" name="ques5" value="Right to Left">Right to Left</p>
-                            <p><input type="radio" name="ques5" value="Both">Both</p>
-                            <p><input type="radio" name="ques5" value="Non of above">Non of above</p>
-                        </div>
-                    </div>
-
-
-                    <input type="button" class="quiz-button" name="" value="Submit Answers" onclick="check()">
-
-                </form>
-
-
+          <div id="" class="">
+            <h4>Q 3 - What will be the data type of the variables ?</h4>
+            <div class="answers">
+              <label id="a3"><input type="radio" name="ques3" value="Only same data type">Only same data type</label>
+              <label for="a31"><input id="a31" type="radio" name="ques3" value="May be same data type">May be same data type</label>
+              <label for="a32"><input id="a32" type="radio" name="ques3" value="Diffrent data type">Diffrent data type</label>
+              <label for="a33"><input id="a33" type="radio" name="ques3" value="Non of above">Non of above</label>
             </div>
-            <div class="restlt" id="after-submit">
-                <p id="number-correct">Keep it up !</p>
+          </div>
 
+          <div id="" class="">
+            <h4>Q 4 - If we assign two variable int and one variable float then what type of error will perform in that program ?</h4>
+            <div class="answers">
+              <label for="a41"><input id="a41" type="radio" name="ques4" value="Run time error">Run time error</label>
+              <label id="a4"><input type="radio" name="ques4" value="Compile time error">Compile time error</label>
+              <label for="a42"><input id="a42" type="radio" name="ques4" value="Logical error">Logical error</label>
+              <label for="a43"><input id="a43" type="radio" name="ques4" value="Non of above">Non of above</label>
             </div>
-            <div class="try-div" id="try-btn">
+          </div>
 
-                <a href="quiz.html"><button type="button" class="try-again" name="button">Try Again !</button></a>
+          <div id="" class="">
+            <h4>Q 5 - While swapping of two variable which side of the variable's vlue assigneed to which side of variable ?</h4>
+            <div class="answers">
+              <label for="a51"><input id="a51" type="radio" name="ques5" value="Left to Right">Left to Right</label>
+              <label id="a5"><input type="radio" name="ques5" value="Right to Left">Right to Left</label>
+              <label for="a52"><input id="a52" type="radio" name="ques5" value="Both">Both</label>
+              <label for="a53"><input id="a53" type="radio" name="ques5" value="Non of above">Non of above</label>
             </div>
+          </div>
 
-        </div>
 
-        <!-- Main body ends -->
+          <input type="button" class="quiz-button" name="" value="Submit Answers" onclick="check()">
+
+        </form>
+
+
+      </div>
+      <div class="restlt" id="after-submit">
+        <p id="number-correct">Keep it up !</p>
+
+      </div>
+      <div class="try-div" id="try-btn">
+
+        <a href="quiz.html"><button type="button" class="quiz-button" name="button">Try Again !</button></a>
+      </div>
+
     </div>
-    <!-- Whole body ends -->
+
+    <!-- Main body ends -->
+  </div>
+  <!-- Whole body ends -->
 
 
-    <!-- jscript costomized -->
-    <script src="index_js.js" charset="utf-8"></script>
+  <!-- jscript costomized -->
+  <script src="index_js.js" charset="utf-8"></script>
 </body>
 
 
