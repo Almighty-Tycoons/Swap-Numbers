@@ -78,7 +78,7 @@ body{
     padding-top: 8vh;
     padding-left: 2vw;
     transition: all 0.3s ease;
-} 
+}
 .collapse .list-section a h3{
     display: none;
     transition: all 0.3s ease;
@@ -184,9 +184,12 @@ body{
     padding-top: 30px;
     padding-right: 50px;
 }
-
+.list{
+  margin: 2%;
+  list-style-type: decimal;
+}
 @media only screen and (max-width: 990px){
-    .main-container{  
+    .main-container{
         width: 100%;
         transition: all 0.3s ease;
     }
@@ -275,4 +278,3 @@ body{
         transition: all 0.3s ease;
     }
 }
-
