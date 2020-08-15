@@ -44,6 +44,7 @@ body {
   font-size: 32px;
   margin-top: 2px;
   transition: all 0.3s ease;
+
 }
 
 /* Top nav bar styling ends */
@@ -194,27 +195,14 @@ body {
   border-radius: 10px;
   border-color: #000;
   font-size: 1rem;
+  outline: none;
 }
 
 .quiz-button:hover {
   color: #000;
   background-color: #fff;
-}
-
-.try-again {
-  margin-top: 20px;
-  background-color: #fff;
-  color: #000;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
-  border-color: #000;
-  font-size: 1rem;
-}
-
-.try-again:hover {
-  color: #c4fb6d;
-  border-color: #c4fb6d;
+  cursor: pointer;
+  outline: none;
 }
 
 .try-div {
@@ -237,11 +225,12 @@ body {
 
 .red {
   color: red;
+  font-weight: bold;
 }
 
 .green {
-  color: #c4fb6d;
-  font-style: bold;
+  color: #96bb7c;
+  font-weight: bold;
 }
 hr {
     border: 0;
