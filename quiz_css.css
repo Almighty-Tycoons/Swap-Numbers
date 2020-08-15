@@ -229,7 +229,7 @@ body {
 }
 
 .green {
-  color: #96bb7c;
+  color: #00cc00;
   font-weight: bold;
 }
 hr {
@@ -239,4 +239,8 @@ hr {
     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
     background-i;
   }
+
+.h1{
+  text-align: center;
+}
 /* =======  Quiz page styling  ========= */
