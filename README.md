@@ -1,6 +1,6 @@
 # Swap-Numbers
 
-Welcome to virtual Lab host by Tech-Tycoons.
+Welcome to virtual Lab host by Almighty-Tycoons.
 
 In this Lab you can perform swapping of two variables using third variables and also see how this algorithm works in a simulation way.
 
