@@ -95,7 +95,6 @@ function check() {
         //alert("uytcuycutxs");
         document.getElementById("number-correct").innerHTML = "Your score = " + count + "   Conguratulations !";
         $(".restlt").show();
-        $("#try-btn").show();
 
     } else {
       if (count=== 0) {
