@@ -8,41 +8,6 @@
     <link rel="stylesheet" href="quiz_css.css">
     <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".expand-icon").click(function() {
-                $(".side-bar").toggleClass("collapse");
-                $(".main-container-quiz").toggleClass("expand-container-quiz");
-                if ($(".fas").hasClass("fa-arrow-right")) {
-                    $(".fas").addClass('fa-arrow-left').removeClass('fa-arrow-right');
-                    return
-                }
-                if ($(".fas").hasClass("fa-arrow-left")) {
-                    $(".fas").addClass('fa-arrow-right').removeClass('fa-arrow-left');
-                }
-
-            });
-            // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {
-                myFunction()
-            };
-
-            // Get the navbar
-            var navbar = document.getElementById("nav-bar");
-
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        });
-    </script>
 
     <title>Document</title>
 </head>
@@ -125,13 +90,13 @@
                     </div>
 
 
-                    <input type="button" class="quiz-button" name="" value="Submit Answers" onclick="check()">
+                    <input type="button" id="after-submit" class="quiz-button" name="" value="Submit Answers" onclick="check()">
 
                 </form>
 
 
             </div>
-            <div class="restlt" id="after-submit">
+            <div class="restlt" id="">
                 <p id="number-correct">Keep it up !</p>
 
             </div>
@@ -148,7 +113,7 @@
 
 
     <!-- jscript costomized -->
-    <script src="index_js.js" charset="utf-8"></script>
+    <script src="quiz_js.js" charset="utf-8"></script>
 </body>
 
 

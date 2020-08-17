@@ -8,41 +8,6 @@
     <link rel="stylesheet" href="index_css.css">
     <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $(".expand-icon").click(function() {
-                $(".side-bar").toggleClass("collapse");
-                $(".main-container").toggleClass("expand-container");
-                if ($(".fas").hasClass("fa-arrow-right")) {
-                    $(".fas").addClass('fa-arrow-left').removeClass('fa-arrow-right');
-                    return
-                }
-                if ($(".fas").hasClass("fa-arrow-left")) {
-                    $(".fas").addClass('fa-arrow-right').removeClass('fa-arrow-left');
-                }
-
-            });
-            // When the user scrolls the page, execute myFunction
-            window.onscroll = function() {
-                myFunction()
-            };
-
-            // Get the navbar
-            var navbar = document.getElementById("nav-bar");
-
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        });
-    </script>
     <title>Document</title>
 </head>
 
@@ -148,14 +113,14 @@
                             <br><br>
 
                             <h4>Step:1 Declare 3 variables</h4><br>
-                            <p>int a,b,temp;</p> <br>
+                            <p>int num1,num2,temp;</p> <br>
                             <h4>Step:2 Input values in two variables.</h4> <br>
-                            <p>printf("enter values of a, b"); <br> scanf("%d %d",&a,&b); </p> <br>
-                            <h4>Step:3 Transfer the value of a in temp then value of b in a and last value of temp in b.
+                            <p>printf("enter values of num1, num2"); <br> scanf("%d %d",&num1,&num2); </p> <br>
+                            <h4>Step:3 Transfer the value of num1 in temp, then value of num2 in num1 and in last value of temp in num2.
                             </h4> <br>
-                            <p>temp = a; <br> a=b; <br> b=temp; </p><br>
+                            <p>temp = num1; <br> num1=num2; <br> num2=temp; </p><br>
 
-                            <h5>Now the values of a & b are exchanged</h5>
+                            <h5>Now the values of num1 & num2 are exchanged</h5>
 
                             <br> While this is conceptually simple and in many cases the only convenient way to swap two variables, it uses extra memory. Although this should not be a problem in most applications, the sizes of the values being swapped
                             may be huge (which means the temporary variable may occupy a lot of memory as well), or the swap operation may need to be performed many times, as in sorting algorithms.
@@ -190,12 +155,12 @@
                             <li class="list"> Include header files.</li>
                             <li class="list"> Create main function.</li>
                             <li class="list">// Inside main function : </li>
-                            <li class="list"> Initialize 3 variables : a, b, temp=0 .</li>
-                            <li class="list"> Take input in variables : a and b .</li>
-                            <li class="list"> Set the value of temp = a .</li>
-                            <li class="list"> Set the value of a = b .</li>
-                            <li class="list"> Set the value of b = temp .</li>
-                            <li class="list"> Print the value of variables : a and b .</li>
+                            <li class="list"> Initialize 3 variables : num1, num2, temp=0 .</li>
+                            <li class="list"> Take input in variables : num1 and num2 .</li>
+                            <li class="list"> Set the value of temp = num1 .</li>
+                            <li class="list"> Set the value of num1 = num2 .</li>
+                            <li class="list"> Set the value of num2 = temp .</li>
+                            <li class="list"> Print the value of variables : num1 and num3 .</li>
                           </ol>
 
                     </div>
@@ -211,7 +176,7 @@
                 </div>
                 <div id="language-used" class="topic">
                     <div class="heading">
-                        <h2>LAGUAGE USED</h2>
+                        <h2>LANGUAGE USED</h2>
                     </div>
                     <div class="details">
                         <p>1. C</p> <br>
@@ -231,6 +196,11 @@
         <!-- Main body ends -->
     </div>
     <!-- Whole body ends -->
+
+        <!-- jscript costomized -->
+        <script src="index_js.js" charset="utf-8"></script>
+
+    </script>
 </body>
 
 
