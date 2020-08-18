@@ -44,10 +44,10 @@ C/CPP Programming Lab
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Jasvant Kumar | Faculty | Computer Science | B.N.C.E.T, Lucknow | er.jaswantsingh786@gmail.com
-2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@example.com
-3 | Aasiya Zabeen | Student | Computer Science | B.N.C.E.T, Lucknow |syedasiya000@example.com
-4 | Rudra Narayan Gupta | Student | Computer Science | B.N.C.E.T, Lucknow |rudra9506@example.com
-5 | AKHILESH TRIPATHI | Student | Computer Science | B.N.C.E.T, Lucknow |akhilesh03tripathi@example.com
+2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@gmail.com
+3 | Aasiya Zabeen | Student | Computer Science | B.N.C.E.T, Lucknow |syedasiya000@gmail.com
+4 | Rudra Narayan Gupta | Student | Computer Science | B.N.C.E.T, Lucknow |rudra9506@gmail.com
+5 | AKHILESH TRIPATHI | Student | Computer Science | B.N.C.E.T, Lucknow |akhilesh03tripathi@gmail.com
 
 
 <br>
