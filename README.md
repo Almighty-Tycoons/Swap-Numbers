@@ -15,7 +15,7 @@ Swapping is a technique in which variables exchange their values. In computer pr
 
 <h5> Target Audience : </h5>
 
- Aktu students/ B.tech 1st year (CS/IT) students.
+ Aktu students/ B.tech 1st year students.
 
 <h5> Course Alignment : </h5>
 
@@ -33,18 +33,18 @@ C/CPP Programming Lab
 
 #### Mentor Details
 
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> (Er Dhananjaya Umrao) - - - - - -
 :--|:--|
-<b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department
+<b> Institute | <b> IIT Kanpur
+<b> Email id|     <b> umraodhananjay@gmail.com
+<b> Department | 
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Jasvant Kumar | Faculty | Computer Science | B.N.C.E.T, Lucknow | er.jaswantsingh786@gmail.com
-2 | Raza Mehndi | Student | Computer Science | B.N.C.E.T, Lucknow |razamehndi81@example.com
+2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@example.com
 3 | Aasiya Zabeen | Student | Computer Science | B.N.C.E.T, Lucknow |syedasiya000@example.com
 4 | Rudra Narayan Gupta | Student | Computer Science | B.N.C.E.T, Lucknow |rudra9506@example.com
 5 | AKHILESH TRIPATHI | Student | Computer Science | B.N.C.E.T, Lucknow |akhilesh03tripathi@example.com
