@@ -33,7 +33,7 @@ C/CPP Programming Lab
 
 #### Mentor Details
 
-<b>Mentored by | <b> (Er Dhananjaya Umrao) - - - - - -
+<b>Mentored by | <b> Er Dhananjaya Umrao
 :--|:--|
 <b> Institute | <b> IIT Kanpur
 <b> Email id|     <b> umraodhananjay@gmail.com
