@@ -2,7 +2,7 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> KCS-101/KCS-201
+<b> Lab | <b> Computer Programming Lab
 <b> Experiment|     <b> 1. (KCS-101/KCS-201) WAP that Swaps values of two variables using a third variable.
 
 <h5> About the Lab (Objective) : </h5>
