@@ -1,32 +1,36 @@
 ## Post test
 <br>
-Q 1. What will happen, if the glass plate is replaced with plane mirror?<br>
-<b>a. There will be no interference fringe<br></b>
-b. There will be interference fringe<br>
-c. colored fringes will be observed<br>
-d. None of the options<br><br>
+Q 1 - Special symbol permitted with in the identifier name.
 
-Q 2. What will happen, if sodium light is replaced with white light?<br>
-a. There will be no interference fringe<br>
-b. There will be interference fringe<br>
-<b>c. colored fringes will be observed<br></b>
-d. No change in pattern is visible<br>
+A.  $
+B.  @
+<b>C.  _</b>
+D.  .
 
-Q 3. What will appear, if in place of lens, a plane glass making some angle with the glass stripe  is used?<br>
-<b>a. Alternate dark and bright fringes in shape of a straight line.<br></b>
-b. triangular interference pattern<br>
-c. colored fringes will be observed<br>
-d. No change in pattern is visible<br>
+Q 2 - How many variables will be assigned for swapping of two numbers using third variable ?
 
-Q 4. Colours observed in thin film are because of ________________<br>
-a. Diffraction<br>
-<b>b. Interference<br></b>
-c. Polarization<br>
-d. None of the options<br>
+A.  1
+<b>B.  3</b>
+C.  6
+D.  None of them
 
-Q 5.  In Newton’s rings experiment, rings are formed when the light is ________________ by
-lower surface of the lens and upper surface of the glass plate, interfere.<br>
-a. Reflected<br>
-<b>b. Refracted<br></b>
-c. Transmitted<br>
-d. None<br></b>
+Q 3 - What will be the data type of the variables ?
+
+<b>A.  Only same data type</b>
+B.  May be same data type
+C.  Diffrent data type
+D.  None of above
+
+Q 4 - If we assign two variable int and one variable float then what type of error will perform in that program ?
+
+A.  Run time error Compile
+<b>B.  time error</b>
+C.  Logical error
+D.  None of above
+
+Q 5 - While swapping of two variable which side of the variable's value assigneed to which side of variable ?
+
+A.  Left to Right
+<b>B.  Right to Left</b>
+C.  Both Non of above
+D.  None of above
