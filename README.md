@@ -19,7 +19,7 @@ Swapping is a technique in which variables exchange their values. In computer pr
 
 <h5> Course Alignment : </h5>
 
-C/CPP Programming Lab
+C/C++
 
 <h5> Universities Mapped : </h5>
 
