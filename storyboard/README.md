@@ -44,40 +44,40 @@ Simulator starts with the experiment name on the top and asking for two numbers.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Difficuty level: Remember
-Q1- Special symbol permitted with in the identifier name.
-(a) $
-(b) @
-<b>(c) _ </b>
-(d) .
+Difficuty level: Remember<br>
+Q1- Special symbol permitted with in the identifier name.<br>
+(a) $ <br>
+(b) @ <br>
+<b>(c) _ </b> <br>
+(d) . <br>
 
-Difficuty level: Apply
-Q2-  How many variables will be assigned for swapping of two numbers using third variable ?
-(a) 1
-<b>(b) 3 </b>
-(c) 6
-(d) Non of them
+Difficuty level: Apply<br>
+Q2-  How many variables will be assigned for swapping of two numbers using third variable ?<br>
+(a) 1 <br>
+<b>(b) 3 </b> <br>
+(c) 6 <br>
+(d) Non of them <br>
 
-Difficulty level: Evaluate
-Q3- What will be the data type of the variables ?
-<b>(a) Only same data type </b>
-(b) May be same data type
-(c) Diffrent data type
-(d) Non of above
+Difficulty level: Evaluate<br>
+Q3- What will be the data type of the variables ?<br>
+<b>(a) Only same data type </b><br>
+(b) May be same data type<br>
+(c) Diffrent data type<br>
+(d) Non of above<br>
 
-Difficulty level: Evaluate
-Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?
-<b>a) Run time error <b>
-(b) Compile time error 
-(c) Logical error
-(d) Non of above
+Difficulty level: Evaluate<br>
+Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
+<b>a) Run time error <b><br>
+(b) Compile time error<br>
+(c) Logical error<br>
+(d) Non of above<br>
 
-Difficulty level: Apply
-Q5-  While swapping of two variable which side of the variable's value assigned to which side of variable ?
-(a) Left to Righ
-(b) Right to Left
-<b>(c) Both </b>
-(d) Non of above
+Difficulty level: Apply<br>
+Q5-  While swapping of two variable which side of the variable's value assigned to which side of variable ?<br>
+(a) Left to Righ<br>
+(b) Right to Left<br>
+<b>(c) Both </b><br>
+(d) Non of above<br>
 
 
 ##### 2.5 Allow pitfalls:
@@ -95,9 +95,9 @@ In this whole experiment, User will be able to learn deep concepts after impleme
 
 ##### 2.7 Equations/formulas: NA
 
-temp = a;
-  a=b; 
-b=temp;
+temp = a;<br>
+  a=b; <br>
+b=temp;<br>
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
