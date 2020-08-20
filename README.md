@@ -16,7 +16,7 @@ Swapping is a technique in which variables exchange their values. In computer pr
 
 <h5> Target Audience : </h5>
 
- Aktu students/ B.tech 1st year students.
+ Aktu students and Faculties / B.tech 1st year students.
 
 <h5> Course Alignment : </h5>
 
