@@ -1,41 +1,103 @@
 ## Storyboard (Round 2)
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
 
-Experiment 1: Name of the Experiment
+Experiment 1: write a program swaps values of two variables using a third variable.
+
 
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchanging the values of the variables. Usually, this is done with the data in memory.
 
 ### 2. Story:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+This experiment is based on swapping of two number using third variable  from the given input of the user. The experiment will start by the input of user, User will have to give two numbers as a input. And the program will swap those number from their memory location or variable.. Usually, this is done with the data in memory.The simplest and probably most widely used method to swap two variables is to use a third temporary variable.we will assign the value of num1 to the value of variable named temp and then then the value of num2 will assign to the value of num1 and after that the value of temp will assign to the value of num2.And this is how the program will swap those numbers.
+
 
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+
+Simulator starts with the experiment name on the top and asking for two numbers. Simulator consist of three blocks, at the left, the simulators asks for two inputs from the user. User will have to give two numbers and then click on OK button. After that user will click on NEXT then both number will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program the numbers will be swapped and will show in the memory block of the simulator. 
 
 #### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+
+1. The main objective of the user is to swapp two numbers using third variable. 
+2. To get to know about the swapping of variables.
+3. To understand the assiging of variables.
+4. User need to answer some question based on the experiment. 
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+1. User starts the simulator.
+2. User enters the two numbers.
+3. User click on OK .
+4. Code will be visible in the code block.
+5. User click on NEXT.
+6. Smulator displays both numbers in the memory block.
+7. User click on NEXT.
+8. The value of num1 will assign to temp.
+9. User click on NEXT.
+10. The value of num2 will assign to the value of num1.
+11. User click on NEXT.
+12. The value of temp will assign to num2.
+13. The number has been changed.
+14. program finished.
+
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+Difficuty level: Remember
+Q1- Special symbol permitted with in the identifier name.
+(a) $
+(b) @
+<b>(c) _ </b>
+(d) .
+
+Difficuty level: Apply
+Q2-  How many variables will be assigned for swapping of two numbers using third variable ?
+(a) 1
+<b>(b) 3 </b>
+(c) 6
+(d) Non of them
+
+Difficulty level: Evaluate
+Q3- What will be the data type of the variables ?
+<b>(a) Only same data type </b>
+(b) May be same data type
+(c) Diffrent data type
+(d) Non of above
+
+Difficulty level: Evaluate
+Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?
+<b>a) Run time error <b>
+(b) Compile time error 
+(c) Logical error
+(d) Non of above
+
+Difficulty level: Apply
+Q5-  While swapping of two variable which side of the variable's value assigned to which side of variable ?
+(a) Left to Righ
+(b) Right to Left
+<b>(c) Both </b>
+(d) Non of above
+
 
 ##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+
+There are pitfalls in the simulator, mentioned below:
+
+1. User will get an error message if user presses ok without giving input.
+2. User will get an error message if user enter string(alphabets or symbols) input.
+3. User should not enter same values in the input field.
+
 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+
+In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
 
 ##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
 
+temp = a;
+  a=b; 
+b=temp;
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
@@ -50,6 +112,13 @@ link to flow chart Here : Store in the  /flowchart folder within Round2 folder i
  (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
+
+<img src="images/1.png"style="width: 80vw;"><br>
+<img src="images/2.png"style="width: 80vw;"><br>
+<img src="images/3.png"style="width: 80vw;"><br>
+<img src="images/4.png"style="width: 80vw;"><br>
+<img src="images/5.png"style="width: 80vw;"><br>
+<img src="images/6.png"style="width: 80vw;"><br>
+<img src="images/7.png"style="width: 80vw;"><br>
+<img src="images/8.png"style="width: 80vw;"><br>
+<img src="images/9.png"style="width: 80vw;"><br>
