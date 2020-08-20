@@ -67,7 +67,7 @@ Q3- What will be the data type of the variables ?<br>
 
 Difficulty level: Evaluate<br>
 Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
-<b>(a) Run time error <b> <br>
+<b>(a) Run time error</b><br>
 (b) Compile time error<br>
 (c) Logical error<br>
 (d) Non of above<br>
