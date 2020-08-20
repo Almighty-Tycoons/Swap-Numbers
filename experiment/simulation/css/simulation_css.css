@@ -167,7 +167,7 @@ body {
 
 .animation {
     transition: all 0.3s ease;
-    float: left;
+    float: right;
     background-color: #46445a;
     max-height: 75vh;
     min-height: 75vh;
@@ -178,7 +178,7 @@ body {
 
 .code {
     transition: all 0.3s ease;
-    float: right;
+    float: left;
     background-color: #46445a;
     width: 48%;
     max-height: 75vh;
@@ -238,10 +238,11 @@ body {
     margin-bottom: 5%;
     color: #fff;
     width: 11vw;
+    height: 3.5vh;
 }
 
 .below-box-text{
-  color:#fddb3a;
+  color:#fff;
 }
 
 label {
@@ -294,6 +295,10 @@ label {
 }
 
 @media only screen and (max-width: 800px) {
+    .main-box{
+        margin-top: 12vh;
+        margin-bottom: 18vh;
+    }
     .main-container {
         width: 100%;
         transition: all 0.3s ease;
@@ -327,12 +332,16 @@ label {
     .bottom-input {
         transition: all 0.3s ease;
         padding-top: 1vh;
+        padding-bottom: 1vh;
         display: inline-block !important;
         min-width: 100vw;
         background-color: #46445a;
-        position: fixed;
-        bottom: 0;
+        position: absolute;
         padding-left: 10%;
+    }
+    .sticky{
+        position: fixed !important;
+        top: 0;
     }
     .input-bottom-box {
         transition: all 0.3s ease;
@@ -343,6 +352,7 @@ label {
     .input-bottom-box input {
         transition: all 0.3s ease;
         margin-left: 10%;
+        height: 3.5vh;
     }
     .input-bottom-button {
         transition: all 0.3s ease;
@@ -358,6 +368,12 @@ label {
 }
 
 @media only screen and (max-width: 641px) {
+    .main-box{
+        margin-top: 5vh;
+    }
+    .sticky{
+        box-shadow: 5px 0px 15px #212121;
+    }
     .top-nav-bar {
         padding-top: 2%;
         padding-left: 5%;
@@ -386,12 +402,13 @@ label {
     .input-bottom-box input {
         margin-left: 5%;
         width: 60%;
+        height: 3.5vh;
     }
     .input-bottom-box label {
         font-size: 3vw;
     }
     .input-bottom-button {
-        margin-top: 1.5vh;
+        margin-top: 2.5vh;
     }
     .bottom-button {
         font-size: 80%;
