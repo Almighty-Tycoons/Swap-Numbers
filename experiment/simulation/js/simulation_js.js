@@ -9,19 +9,22 @@ function changeClass(id, className) {
 function displayElements() {
     var a = document.getElementById('inputV1').value;
     var b = document.getElementById('inputV2').value;
-    console.log(typeof(a));
-    console.log(Number(a));
+    // console.log(typeof(a));
+    // console.log(Number(a));
     if (window.innerWidth >= 801) {
         if (a == " " || b == " ") {
             location.reload();
             alert("Please provide inputs");
             return;
         }
-        // if ( Number.isInteger(a) ||  Number.isInteger(b)) {
-        //     location.reload();
-        //     alert("Please provide numbers only");
-        //     return;
-        // }
+
+        a=Number(a);
+        b=Number(b);
+        // console.log(typeof(a));
+        if (! Number.isInteger(a) || ! Number.isInteger(b)) {
+            // alert("Please provide numbers only");
+            document.getElementById("line2").innerHTML=" float num1,num2,temp;";
+        }
     }
 
     if (window.innerWidth <= 800) {
@@ -32,11 +35,12 @@ function displayElements() {
             alert("Please provide inputs");
             return;
         }
-        // if (!parseFloat(a) || !parseFloat(b)) {
-        //     location.reload();
-        //     alert("Please provide numbers only");
-        //     return;
-        // }
+                a=Number(a);
+                b=Number(b);
+        if (! Number.isInteger(a) || ! Number.isInteger(b)) {
+
+          document.getElementById("line2").innerHTML=" float num1,num2,temp;";
+        }
     }
     //this.createBoxes()
     showCode();
