@@ -20,7 +20,7 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Rainforce theoretical concept
+#### 1. Focus Area : Reinforce theoretical concept
 
 #### 2. Learning Objectives and Cognitive Level
 
