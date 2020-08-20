@@ -3,11 +3,12 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Computer Programming Lab
-<b> Experiment|     <b> 1. (KCS-101/KCS-201) WAP that Swaps values of two variables using a third variable.
+<b> Experiment|     <b> 1. Write A Program that Swaps values of two variables using a third variable.
 
 <h5> About the Lab (Objective) : </h5>
 
-To learn how to swap values of two variables using a third variable.
+The lab is created to to introduce students to the basic knowledge of programming fundamentals of C
+language and to impart writing skill of C programming to the students and solving problems.
 
 <h5> About the Experiment : </h5>
 
