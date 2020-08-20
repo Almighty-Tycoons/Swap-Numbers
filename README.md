@@ -38,7 +38,7 @@ C/C++
 :--|:--|
 <b> Institute | <b> IIT Kanpur
 <b> Email id|     <b> umraodhananjay@gmail.com
-<b> Department | 
+<b> Department | <b> Computer Science and Engineering
 
 #### Contributors List
 
