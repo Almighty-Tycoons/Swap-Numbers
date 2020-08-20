@@ -48,7 +48,7 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@gmail.com
 3 | Aasiya Zabeen | Student | Computer Science | B.N.C.E.T, Lucknow |syedasiya000@gmail.com
 4 | Rudra Narayan Gupta | Student | Computer Science | B.N.C.E.T, Lucknow |rudra9506@gmail.com
-5 | AKHILESH TRIPATHI | Student | Computer Science | B.N.C.E.T, Lucknow |akhilesh03tripathi@gmail.com
+5 | Akhilesh Tripathi | Student | Computer Science | B.N.C.E.T, Lucknow |akhilesh03tripathi@gmail.com
 
 
 <br>
