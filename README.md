@@ -2,7 +2,7 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> Computer Programming Lab
+<b> Lab | <b> Programming for Problem Solving Lab
 <b> Experiment|     <b> 1. Write a program that Swaps values of two variables using a third variable.
 
 <h5> About the Lab (Objective) : </h5>
