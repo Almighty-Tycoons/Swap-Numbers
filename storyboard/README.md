@@ -6,40 +6,39 @@ Experiment 1: write a program swaps values of two variables using a third variab
 
 ### 1. Story Outline:
 
-Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchanging the values of the variables. Usually, this is done with the data in memory.
+Swapping is a technique in which variables exchange their data values. In computer programming, the act of swapping two variables refers to mutually exchanging the data of the variables. Usually, this is done with the data in memory.
 
 ### 2. Story:
 
-This experiment is based on swapping of two number using third variable  from the given input of the user. The experiment will start by the input of user, User will have to give two numbers as a input. And the program will swap those number from their memory location or variable.. Usually, this is done with the data in memory.The simplest and probably most widely used method to swap two variables is to use a third temporary variable.we will assign the value of num1 to the value of variable named temp and then then the value of num2 will assign to the value of num1 and after that the value of temp will assign to the value of num2.And this is how the program will swap those numbers.
+This experiment is based on the swapping of two numbers using the third variable from the given input of the user. The experiment will start with the input given by the user, after that with the help of the program user will swap those (values in)numbers from their memory location. Usually, this is done with the data in memory. The simplest and probably most widely used method to swap two variables is to use a temporary variable. The code will assign the value of num1 into the variable named "temp" and then the value of num2 will be assigned into the value of num1 and after that, the value of "temp" will be assigned into the value of num2. And this is how the program will swap those numbers.
 
 
 #### 2.1 Set the Visual Stage Description:
 
-Simulator starts with the experiment name on the top and asking for two numbers. Simulator consist of three blocks, at the left, the simulators asks for two inputs from the user. User will have to give two numbers and then click on OK button. After that user will click on NEXT then both number will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program the numbers will be swapped and will show in the memory block of the simulator. 
+The simulator starts with the experiment name on the top and asking for the input of two numbers. The simulator consists of three blocks, in the left one the simulators ask for two inputs from the user. Users will have to give two numbers and then click on the "OK" button if the input is in a proper format user will allow accessing click on NEXT then both numbers will show in the memory block of the simulator. After that, the user will have to press next until the program finishes, and by clicking the NEXT button users visualize the execution of code with Memory block and Code block. At the execution of the program, the numbers are swapped user will be able to see in the memory block of the simulator. 
 
 #### 2.2 Set User Objectives & Goals:
 
-1. The main objective of the user is to swapp two numbers using third variable. 
-2. To get to know about the swapping of variables.
-3. To understand the assiging of variables.
-4. User need to answer some question based on the experiment. 
+1. The prime objective of the user is to swapp two numbers using third variable. 
+2. To get to know about the swapping of data in the memory cell.
+3. Users need to answer some questions based on the experiment. 
 
 #### 2.3 Set the Pathway Activities:
 
 1. User starts the simulator.
-2. User enters the two numbers.
-3. User click on OK .
+2. User enters the values of two numbers.
+3. User clicks on the "OK" button.
 4. Code will be visible in the code block.
-5. User click on NEXT.
-6. Smulator displays both numbers in the memory block.
-7. User click on NEXT.
+5. User click on "NEXT" button.
+6. The simulator will display both numbers in the memory block.
+7. User click on "NEXT" button.
 8. The value of num1 will assign to temp.
-9. User click on NEXT.
+9. User click on "NEXT" button.
 10. The value of num2 will assign to the value of num1.
-11. User click on NEXT.
-12. The value of temp will assign to num2.
+11. User click on "NEXT" button.
+12. The value of temp will assign to the value of num2.
 13. The number has been changed.
-14. program finished.
+14. User clicks on "NEXT" button then a pop-up box appears with text "Program over".
 
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
@@ -60,10 +59,10 @@ Q2-  How many variables will be assigned for swapping of two numbers using third
 
 Difficulty level: Evaluate<br>
 Q3- What will be the data type of the variables ?<br>
-<b>(a) Only same data type </b><br>
-(b) May be same data type<br>
-(c) Diffrent data type<br>
-(d) Non of above<br>
+(a) int</b><br>
+(b) float<br>
+(c) char<br>
+<b>(d) Both (a) or (b) </b><br>
 
 Difficulty level: Evaluate<br>
 Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
@@ -72,11 +71,11 @@ Q4- If we assign two variable int and one variable float then what type of error
 (c) Logical error<br>
 (d) Non of above<br>
 
-Difficulty level: Apply<br>
-Q5-  While swapping of two variable which side of the variable's value assigned to which side of variable ?<br>
-(a) Left to Righ<br>
-(b) Right to Left<br>
-<b>(c) Both </b><br>
+Difficulty level: Remember<br>
+Q5-  While swapping of two variables which operator is used for assignment ?<br>
+(a) ==<br>
+(b) is equal<br>
+<b>(c) =</b><br>
 (d) Non of above<br>
 
 
@@ -84,20 +83,20 @@ Q5-  While swapping of two variable which side of the variable's value assigned 
 
 There are pitfalls in the simulator, mentioned below:
 
-1. User will get an error message if user presses ok without giving input.
-2. User will get an error message if user enter string(alphabets or symbols) input.
-3. User should not enter same values in the input field.
+1. User will get an error message in a pop-up box if user presses "OK" button without providing the inputs.
+2. User will get an error message in a pop-up box if user enter string(alphabets or symbols) as inputs.
+3. If user provide same values in both the input fields, pop-up box will appear with message "provide diffrent inputs".
 
 
 ##### 2.6 Conclusion:
 
-In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
+In this whole experiment, User will be able to learn basic programming concepts after implementing code by doing hands-on tasks on simulator. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
 
 ##### 2.7 Equations/formulas: NA
 
-temp = a;<br>
-  a=b; <br>
-b=temp;<br>
+temp = num1;<br>
+num1 = num2; <br>
+num2 = temp;<br>
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
