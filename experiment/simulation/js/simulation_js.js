@@ -11,7 +11,7 @@ function displayElements() {
   var b = document.getElementById('inputV2').value.trim();
 
   if (window.innerWidth >= 801) {
-    if (a == " " || b == " ") {
+    if (a == "" || b == "") {
       location.reload();
       alert("Please provide inputs");
       return;
@@ -32,7 +32,7 @@ function displayElements() {
   if (window.innerWidth <= 800) {
     var a = document.getElementById('inputV3').value.trim();
     var b = document.getElementById('inputV4').value.trim();
-    if (a == " " || b == " ") {
+    if (a == "" || b == "") {
       location.reload();
       alert("Please provide inputs");
       return;
