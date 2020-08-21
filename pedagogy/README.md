@@ -43,7 +43,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <u> <b>Description: </b> Simulator will show code of swapping of two numbers. </u>
 <br>
- Simulator will take input and then it will show the whole code to the user, when the user clicks on next button the code will run one by one and at the same time the output box will show how these codes actually works.
+ Simulator will take input and then it will show the whole code to the user, when the user clicks on <b>Next</b> button the lines of code will execute one by one and at the same time the <b>Memory</b> box will show how these lines of code actually works.
 
 <br/>
 <div align="right">
@@ -79,5 +79,5 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.|<ul><li> Student inputs numbers in the textbox</li> <li> Student will click <b> OK </b> button.</li> | Simulator will fetch information and store in the variable box  | The purpose is to get values which simulator have to swap.
-2.|<ul><li>Student will click on the <b> Next </b> button </li><li> Student will repeat step 2 until the program has been terminated. </li>|Simulator will show stepwise how compiler performs task line by line <br>  | The purpose is to explore student's mind how compiler works against a Programming language and visualize the theory of working of compiler so the student will learn easily.
+1.|<ul><li> Student inputs numbers in the textbox</li> <li> Student will click <b> OK </b> button.</li> | Simulator will fetch information and store in the variable box  | The purpose is to get values from user which simulator have to swap.
+2.|<ul><li>Student will click on the <b> Next </b> button </li><li> Student will repeat step 2 until the program has been terminated. </li>|Simulator will show stepwise how compiler performs task line by line <br>  | The purpose is to explore student's mind how compiler works against a Programming language and visualize the theory of working of compiler as well as memory cells so the student will learn easily.
