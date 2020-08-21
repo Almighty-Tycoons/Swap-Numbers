@@ -334,7 +334,7 @@ label {
         padding-top: 1vh;
         padding-bottom: 1vh;
         display: inline-block !important;
-        min-width: 100vw;
+        width: inherit;
         background-color: #46445a;
         position: absolute;
         padding-left: 10%;
@@ -367,7 +367,7 @@ label {
     }
 }
 
-@media only screen and (max-width: 641px) {
+@media only screen and (max-width: 658px) {
     .main-box{
         margin-top: 5vh;
     }
@@ -472,4 +472,7 @@ label {
     display: block;
     color: #fff;
     text-align: left;
+}
+.validation{
+    color: #ff0000;
 }

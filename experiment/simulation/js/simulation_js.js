@@ -12,16 +12,18 @@ function displayElements() {
 
   if (window.innerWidth >= 801) {
     if (a == "" || b == "") {
-      location.reload();
-      alert("Please provide inputs");
+      // location.reload();
+      // alert("Please provide inputs");
+      $(".validation").html("Please provide inputs");
       return;
     }
 
     a = Number(a);
     b = Number(b);
     if (isNaN(a) || isNaN(b)) {
-      alert("Please provide numbers only.");
-      location.reload();
+      // alert("Please provide numbers only.");
+      // location.reload();
+      $(".validation").html("Please provide numbers only");
       return;
     }
     if (!Number.isInteger(a) || !Number.isInteger(b)) {
@@ -33,21 +35,24 @@ function displayElements() {
     var a = document.getElementById('inputV3').value.trim();
     var b = document.getElementById('inputV4').value.trim();
     if (a == "" || b == "") {
-      location.reload();
-      alert("Please provide inputs");
+      // location.reload();
+      // alert("Please provide inputs");
+      $(".validation").html("Please provide inputs");
       return;
     }
     a = Number(a);
     b = Number(b);
     if (isNaN(a) || isNaN(b)) {
-      alert("Please provide numbers only.");
-      location.reload();
+      // alert("Please provide numbers only.");
+      // location.reload();
+      $(".validation").html("Please provide numbers only");
       return;
     }
     if (!Number.isInteger(a) || !Number.isInteger(b)) {
       document.getElementById("line2").innerHTML = " float num1,num2,temp;";
     }
   }
+  $(".validation").hide();
   //this.createBoxes()
   showCode();
   var c = "line"
