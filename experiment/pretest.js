@@ -4,7 +4,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 
-(function() {
+(function () {
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -72,45 +72,78 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
- 
-
-/////////////////////////////////////////////////////////////////////////////
-
-/////////////////////// Do not modify the above code ////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////
 
 
+  /////////////////////////////////////////////////////////////////////////////
+
+  /////////////////////// Do not modify the above code ////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////////
 
 
 
 
-/////////////// Write the MCQ below in the exactly same described format ///////////////
+
+
+  /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "C language is known as?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "High level",                  ///// Write the option 1 inside double quotes
+        b: "low level",                  ///// Write the option 2 inside double quotes
+        c: "middle level",                  ///// Write the option 3 inside double quotes
+        d: "none of the above"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "what is the only function c program must contains?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "start",                  ///// Write the option 1 inside double quotes
+        b: "system",                  ///// Write the option 2 inside double quotes
+        c: "main",                  ///// Write the option 3 inside double quotes
+        d: "program"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
+    ///// this line
+
+    {
+      question: "What is the corect value to returning to operating system upon the succes full compeletion of code?",
+      answers: {
+        a: "-1",
+        b: "1",
+        c: "0",
+        d: "program do not retun value"
+      },
+      correctAnswer: "d"
+    },
+
+    {
+      question: "Choose correct way to assign values to a variable in C?",
+      answers: {
+        a: "ina a = 5",
+        b: "a = 'hello world'",
+        c: "String a = 'hello world'",
+        d: "a and c"
+      },
+      correctAnswer: "d"
+    },
+
+    {
+      question: "Which of the followeing is true about c language?",
+      answers: {
+        a: "Platform idependent",
+        b: "Machine independent",
+        c: "High level language",
+        d: "none of the above"
+      },
+      correctAnswer: "c"
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
@@ -144,11 +177,11 @@
 
 
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////// Do not modify the below code ////////////////////////
+  /////////////////////// Do not modify the below code ////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
 
   // display quiz right away
