@@ -27,8 +27,8 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>Assign values to  variables <br> |Remembering | Recall 
-2.| User will be able to: <br> Exchange values of two variables | Understanding  | Understand
+1.| User will be able to: <br>Assign values to  variables <br> |Remembering | Assign 
+2.| User will be able to: <br> Exchange values of two variables | Understanding  | Exchange
 3.| User will be able to: <br>Apply knowledge of swapping in analyzing further problems |Applying | Apply
 
 <br/>
