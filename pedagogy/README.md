@@ -60,9 +60,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| Students will be able to <br> assign values to  variables | Student will assign input values to variables | Q1.   Data type of values should be <br> <b> A. Same type</b><br> B. Different type <br> Q2. When assign different data type values, problem which occurs <br> A. Runtime error <br> <b> B. Compile-time error </b>
-2.| Students will be able to<br> Understand the usability of a temporary variable | Student will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li> Passing value of temporary variable to second variable </li> | Q1. The student firstly can assign value of second variable to temp variable then value of first variable to second variable,  after that value of temp to second variable <br> <b> A. Yes </b> <br> B. No
-3.| User will be able to<br> apply knowledge of swapping | Student will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li>Passing value of second variable to first variable</li><li> Passing value of temporary variable to second variable </li> | Q1. The problems where swapping can be applied <br> A. Searching based <br> <b> B. Sorting based </b>
+1.| User will be able to <br> assign values to  variables | User will assign input values to variables | Q1.   Data type of values should be <br> <b> A. Same type</b><br> B. Different type <br> Q2. When assign different data type values, problem which occurs <br> A. Runtime error <br> <b> B. Compile-time error </b>
+2.| User will be able to<br> understand the usability of a temporary variable | User will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li> Passing value of temporary variable to second variable </li> | Q1. The student firstly can assign value of second variable to temp variable then value of first variable to second variable,  after that value of temp to second variable <br> <b> A. Yes </b> <br> B. No
+3.| User will be able to<br> exchange value of two variable | Student will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li>Passing value of second variable to first variable</li><li> Passing value of temporary variable to second variable </li> | Q1. The problems where swapping can be applied <br> A. Searching based <br> <b> B. Sorting based </b>
 
  <br>
 
