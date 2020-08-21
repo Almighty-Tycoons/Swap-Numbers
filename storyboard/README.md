@@ -59,10 +59,10 @@ Q2-  How many variables will be assigned for swapping of two numbers using third
 
 Difficulty level: Evaluate<br>
 Q3- What will be the data type of the variables ?<br>
-<b>(a) Only same data type </b><br>
-(b) May be same data type<br>
-(c) Diffrent data type<br>
-(d) Non of above<br>
+(a) int</b><br>
+(b) float<br>
+(c) char<br>
+<b>(d) Both (a) or (b) </b><br>
 
 Difficulty level: Evaluate<br>
 Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
@@ -71,11 +71,11 @@ Q4- If we assign two variable int and one variable float then what type of error
 (c) Logical error<br>
 (d) Non of above<br>
 
-Difficulty level: Apply<br>
-Q5-  While swapping of two variable which side of the variable's value assigned to which side of variable ?<br>
-(a) Left to Righ<br>
-(b) Right to Left<br>
-<b>(c) Both </b><br>
+Difficulty level: Remember<br>
+Q5-  While swapping of two variables which operator is used for assignment ?<br>
+(a) ==<br>
+(b) is equal<br>
+<b>(c) =</b><br>
 (d) Non of above<br>
 
 
@@ -83,20 +83,20 @@ Q5-  While swapping of two variable which side of the variable's value assigned 
 
 There are pitfalls in the simulator, mentioned below:
 
-1. User will get an error message if user presses ok without giving input.
-2. User will get an error message if user enter string(alphabets or symbols) input.
-3. User should not enter same values in the input field.
+1. User will get an error message in a pop-up box if user presses "OK" button without providing the inputs.
+2. User will get an error message in a pop-up box if user enter string(alphabets or symbols) as inputs.
+3. If user provide same values in both the input fields, pop-up box will appear with message "provide diffrent inputs".
 
 
 ##### 2.6 Conclusion:
 
-In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
+In this whole experiment, User will be able to learn basic programming concepts after implementing code by doing hands-on tasks on simulator. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
 
 ##### 2.7 Equations/formulas: NA
 
-temp = a;<br>
-  a=b; <br>
-b=temp;<br>
+temp = num1;<br>
+num1 = num2; <br>
+num2 = temp;<br>
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
