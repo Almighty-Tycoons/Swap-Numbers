@@ -1,12 +1,12 @@
 ## Storyboard (Round 2)
 
 
-Experiment 1: write a program swaps values of two variables using a third variable.
+Experiment 1: Write a program swaps values of two variables using a third variable.
 
 
 ### 1. Story Outline:
 
-Swapping is a technique in which variables exchange their data values. In computer programming, the act of swapping two variables refers to mutually exchanging the data of the variables. Usually, this is done with the data in memory.
+Swapping is a technique in which variables exchange their data values. In computer programming, the act of swapping two variables refers to mutually exchange the data of the variables. Usually, this is done with the data in memory.
 
 ### 2. Story:
 
@@ -15,7 +15,7 @@ This experiment is based on the swapping of two numbers using the third variable
 
 #### 2.1 Set the Visual Stage Description:
 
-The simulator starts with the experiment name on the top and asking for the input of two numbers. The simulator consists of three blocks, in the left one the simulators ask for two inputs from the user. Users will have to give two numbers and then click on the "OK" button if the input is in a proper format user will allow accessing click on NEXT then both numbers will show in the memory block of the simulator. After that, the user will have to press next until the program finishes, and by clicking the NEXT button users visualize the execution of code with Memory block and Code block. At the execution of the program, the numbers are swapped user will be able to see in the memory block of the simulator. 
+The simulator starts with the experiment name on the top and asking for the input of two numbers. The simulator consists of three blocks, in the left one the simulators ask for two inputs from the user. Users will have to give two numbers and then click on the "OK" button if the input is in a proper format user will allow accessing click on NEXT then both numbers will show in the memory block of the simulator. After that, the user will have to press next until the program finishes, and by clicking the NEXT button, users visualize the execution of code with Memory block and Code block. At the execution of the program, the numbers are swapped user will be able to see in the memory block of the simulator. 
 
 #### 2.2 Set User Objectives & Goals:
 
@@ -98,7 +98,7 @@ temp = num1;<br>
 num1 = num2; <br>
 num2 = temp;<br>
 
-### 3. Flowchart 4
+### 3. Flowchart
 <img src="flowchart/flowchart.png"/><br>
 
 ### 4. Mindmap:
