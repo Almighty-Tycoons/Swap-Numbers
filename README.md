@@ -7,16 +7,16 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-The lab is created to introduce students to the basic knowledge of programming fundamentals of C
+The lab is created to introduce students to the basic knowledge of programming fundamentals of the C
 language and to impart writing skill of C programming to the students and solving problems.
 
 <h5> About the Experiment : </h5>
 
-Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchanging the values of the variables. Usually, this is done with the data in memory.
+Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables. Usually, this is done with the data in memory.
 
 <h5> Target Audience : </h5>
 
- Aktu students and Faculties / B.tech 1st year students.
+ Students and Faculties / B.tech 1st year students.
 
 <h5> Course Alignment : </h5>
 
