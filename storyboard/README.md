@@ -56,14 +56,14 @@ Q2-  How many variables will be assigned for swapping of two numbers using third
 (c) 6 <br>
 (d) Non of them <br>
 
-Difficulty level: Evaluate<br>
+Difficulty level: Understand<br>
 Q3- What will be the data type of the variables ?<br>
 (a) int</b><br>
 (b) float<br>
 (c) char<br>
 <b>(d) Both (a) or (b) </b><br>
 
-Difficulty level: Evaluate<br>
+Difficulty level: Apply<br>
 Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
 <b>(a) Run time error</b><br>
 (b) Compile time error<br>
