@@ -14,7 +14,7 @@ This experiment is based on the swapping of two numbers using the third variable
 
 #### 2.1 Set the Visual Stage Description:
 
-The simulator starts with the experiment name on the top and asking for the input of two numbers. The simulator consists of three blocks, in the left one the simulator asks two inputs. User will have to input two numbers and then click on the "OK" button, if the input is in a proper format simulator will allow user to proceed with NEXT button, then both numbers will show in the memory block of the simulator. After that, the user will have to press next until the program finishes, and by clicking the NEXT button, user visualize the execution of code with Memory block and Code block. At the execution of the program, the numbers are swapped. User will be able to see that in the memory block of the simulator. 
+The simulator starts with the experiment name on the top and asking for the input of two numbers. The simulator consists of three blocks, in the left one the simulator asks two inputs. User will have to input two numbers and then click on the "OK" button, if the input is in a proper format simulator will allow user to proceed with "NEXT" button, then both numbers will be shown in the memory block of the simulator. After that, the user will have to press "NEXT" button until the program finishes. By clicking the NEXT button, user visualize the execution of code and changes in values of the variables with Memory block and Code block. At the execution of the program, the numbers are swapped. User will be able to see that in the memory block of the simulator. 
 
 #### 2.2 Set User Objectives & Goals:
 
