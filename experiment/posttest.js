@@ -111,6 +111,39 @@
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+    
+    {
+      question: "This is question n?",
+      answers: {
+        a: "Option 1",
+        b: "Option 2",
+        c: "Option 3",
+        d: "Option 4"
+      },
+      correctAnswer: "c"
+    },
+    
+    {
+      question: "This is question n?",
+      answers: {
+        a: "Option 1",
+        b: "Option 2",
+        c: "Option 3",
+        d: "Option 4"
+      },
+      correctAnswer: "c"
+    },
+    
+    {
+      question: "This is question n?",
+      answers: {
+        a: "Option 1",
+        b: "Option 2",
+        c: "Option 3",
+        d: "Option 4"
+      },
+      correctAnswer: "c"
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
