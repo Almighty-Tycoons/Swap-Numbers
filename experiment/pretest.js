@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "Which of the following is not a token C Language.?",  ///// Write the question inside double quotes
+      question: "Which of the following is not token in C Language.?",  ///// Write the question inside double quotes
       answers: {
         a: "Keywords",                  ///// Write the option 1 inside double quotes
         b: "Operators",                  ///// Write the option 2 inside double quotes
@@ -100,12 +100,12 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
     {
-      question: "What statement is true for Identifier in C Language.?",  ///// Write the question inside double quotes
+      question: "Which statement is true for Identifier in C Language.?",  ///// Write the question inside double quotes
       answers: {
         a: "Identifiers are names for entities in a C program, such as variables, arrays, functions etc.",                  ///// Write the option 1 inside double quotes
         b: "Identifiers have fixed meanings.",                  ///// Write the option 2 inside double quotes
-        c: "Identifiersi are the smallest unit ",                  ///// Write the option 3 inside double quotes
-        d: "All the above."                   ///// Write the option 4 inside double quotes
+        c: "Identifiers are the smallest unit ",                  ///// Write the option 3 inside double quotes
+        d: "All of the above."                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
