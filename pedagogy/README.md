@@ -41,7 +41,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u>Expository
 ###### Assessment Method: Formative assessment 
 
-<u> <b>Description: </b> During the experiment, student will perceive at which memory block which value exists. It means student is familiar with the changes in the values of the variables.And all the result will be know to the student so it is the case of expository instructional stratagy.
+<u> <b>Description: </b> During the experiment, student will perceive at which memory block which value exists. It means student is familiar with the changes in the values of the variables,and all the result will be knowndurto the student during experiment ,so it is the case of expository instructional strategy.
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
