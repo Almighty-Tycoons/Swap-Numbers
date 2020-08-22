@@ -89,7 +89,7 @@ There are pitfalls in the simulator, mentioned below:
 
 ##### 2.6 Conclusion:
 
-In this experiment, user will learn how to use concepts of C programming language to find the solution of the problem of swapping of two numbers using third variable. In addition to this user will also learn to recall assigning values to the variables and understand the usability of temporary variable.
+In this experiment, user will learn how to use concepts of C programming language to find the solution of the problem of swapping of two numbers using third variable. In addition to this, user will also learn to recall assigning values to the variables and understand the usability of temporary variable.
 
 ##### 2.7 Equations/formulas:
 
