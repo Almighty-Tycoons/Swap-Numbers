@@ -90,26 +90,26 @@
 
   const myQuestions = [
     {
-      question: "What is an Identifier in C Language.?",  ///// Write the question inside double quotes
+      question: "Which of the following is not a token C Language.?",  ///// Write the question inside double quotes
       answers: {
-        a: "Name of a Function or Variable",                  ///// Write the option 1 inside double quotes
-        b: "Name of a Macros",                  ///// Write the option 2 inside double quotes
-        c: "Name of Structure or Union",                  ///// Write the option 3 inside double quotes
-        d: "All the above."                   ///// Write the option 4 inside double quotes
+        a: "Keywords",                  ///// Write the option 1 inside double quotes
+        b: "Operators",                  ///// Write the option 2 inside double quotes
+        c: "Functions",                  ///// Write the option 3 inside double quotes
+        d: "Identifiers"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "d"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
-
     {
-      question: "Choose a right statement.",  ///// Write the question inside double quotes
+      question: "What statement is true for Identifier in C Language.?",  ///// Write the question inside double quotes
       answers: {
-        a: "Redeclaration of a variable is Ok.",                  ///// Write the option 1 inside double quotes
-        b: "Redefinition of a variable is not Ok.",                  ///// Write the option 2 inside double quotes
-        c: "Definition of a variable uses memory blocks.",                  ///// Write the option 3 inside double quotes
+        a: "Identifiers are names for entities in a C program, such as variables, arrays, functions etc.",                  ///// Write the option 1 inside double quotes
+        b: "Identifiers have fixed meanings.",                  ///// Write the option 2 inside double quotes
+        c: "Identifiersi are the smallest unit ",                  ///// Write the option 3 inside double quotes
         d: "All the above."                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "d"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+                                 ///// To add more questions, copy the section below 
     ///// this line
 
     {
@@ -124,7 +124,7 @@
     },
 
     {
-      question: "Choose a right statement.",
+      question: "Which of the following is a right statement.",
       answers: {
         a: "int my_age = 10;",
         b: "int my,age = 10;",
@@ -135,11 +135,11 @@
     },
 
     {
-      question: "Each statement in a C program should end with ?",
+      question: "Each statement in a C program must ends with ?",
       answers: {
-        a: "Semicolon ;",
-        b: "Colon :",
-        c: "Period . (dot symbol)",
+        a: "; (Semicolon )",
+        b: ": (Colon)",
+        c: ". (dot symbol)",
         d: "None of the above."
       },
       correctAnswer: "a"
