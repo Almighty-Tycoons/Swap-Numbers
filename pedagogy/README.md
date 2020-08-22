@@ -59,7 +59,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 :--|:--|:--|:-:
 1.| User will be able to <br>Recall the assign values to variables | User will assign input values to variables | Q1.   Data type of values should be <br> <b> A. int or float</b><br> B. string <br> Q2. When data type of values are not declare, which error occors? <br> A. Runtime error <br> <b> B. Compile-time error </b>
 2.| User will be able to<br> understand the usability of a temporary variable | User will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li> Passing value of temporary variable to second variable </li> | Q1. What will be the value of temp after execution of given code if a=3 and b=6:<br>temp=a;<br>a=b;<br>b=temp;<br> <b> A. 3 </b> <br> B. 6
-3.| User will be able to<br> exchange values of two variables | Student will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li>Passing value of second variable to first variable</li><li> Passing value of temporary variable to second variable </li> | Q1. Which code will perform swapping(exchange) of variables. <br> A. temp=a; b=temp; a=b; <br> <b> B. temp=a; a=b; b=temp; </b>
+3.| User will be able to<br> Apply the concept of exchange values of two variables | Student will perform <br> <ul> <li> Passing value of first variable to a temporary variable.</li><li>Passing value of second variable to first variable</li><li> Passing value of temporary variable to second variable </li> | Q1. Which code will perform swapping(exchange) of variables. <br> A. temp=a; b=temp; a=b; <br> <b> B. temp=a; a=b; b=temp; </b>
 
  <br>
 
