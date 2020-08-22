@@ -8,7 +8,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Programming for Problem Solving Lab
-<b> Experiment|     <b> 1. Write a program to swap two numbers using third variable
+<b> Experiment|     <b> 1. Write a program that Swaps values of two variables using a third variable.
 
 
 <h4> [1. Focus Area](#LO) 
