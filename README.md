@@ -7,11 +7,11 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem of mutually exchanging values of two variables of the same data type. Student will be able to see how the values in memory block get swapped or exchanged.
+In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem of mutually exchanging values of two variables of the same data type. 
 
 <h5> About the Experiment : </h5>
 
-Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables.
+Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables. Student will be able to see how the values in memory block get swapped or exchanged.
 
 <h5> Target Audience : </h5>
 
