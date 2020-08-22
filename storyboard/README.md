@@ -115,4 +115,6 @@ num2 = temp;<br>
 <img src="images/7.PNG"><br>
 <img src="images/8.PNG"><br>
 <img src="images/9.PNG"><br>
+<img src="images/10.PNG"><br>
+<img src="images/11.PNG"><br>
 
