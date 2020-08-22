@@ -7,12 +7,11 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-The lab is created to introduce students to the basic knowledge of programming fundamentals of the C
-language and to impart writing skill of C programming to the students and solving problems.
+In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem of mutually exchanging values of two variables of the same data type.
 
 <h5> About the Experiment : </h5>
 
-Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables. Usually, this is done with the data in memory.
+Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables.
 
 <h5> Target Audience : </h5>
 
@@ -24,7 +23,7 @@ Programming for Problem Solving Lab
 
 <h5> Universities Mapped : </h5>
 
- AKTU
+ AKTU LUCKNOW
 
 <b>Name of Developer | <b>Jasvant Kumar
 :--|:--|
