@@ -90,7 +90,7 @@ There are pitfalls in the simulator, mentioned below:
 
 ##### 2.6 Conclusion:
 
-In this whole experiment, User will be able to learn basic programming concepts after implementing code by doing hands-on tasks on simulator. Based on the successful completion of the experiment, user will be able to describe the swapping of two numbers using third variable. Hence with this, all the mentioned learning outcomes can be taken with the user.
+In this whole experiment, user will be able to learn basic programming concepts after implementing code by doing hands-on tasks on the simulator. Based on the successful completion of the experiment, users will be able to describe the swapping of two numbers using third variable. Hence, with this all the mentioned learning outcomes can be taken by the user.
 
 ##### 2.7 Equations/formulas: NA
 
