@@ -1,17 +1,17 @@
 ## <b> Pre-test
 #### Please attempt the following questions</b>
 
-1) What is an Identifier in C Language.?<br>
-A) Name of a Function or Variable<br>
-B) Name of a Macros<br>
-C) Name of Structure or Union<br>
-<b>D) All the above.</b><br>
+1) Which of the following is not token in C Language.?<br>
+A) Keywords<br>
+B) Operators<br>
+<b>C) Functions</b><br>
+D) Identifiers<br>
 
-2) Choose a right statement.<br>
-A) Redeclaration of a variable is Ok.<br>
-B) Redefinition of a variable is not Ok.<br>
-C) Definition of a variable uses memory blocks.<br>
-<b>D) All the above.</b><br>
+2) Which statement is true for Identifier in C Language.?<br>
+<b>A) Identifiers are names for entities in a C program, such as variables, arrays, functions etc.</b><br>
+B) Identifiers have fixed meanings.<br>
+C) Identifiers are the smallest unit <br>
+D) All the above.<br>
 
 
 3) Operator % in C Language is called.?<br>
@@ -21,15 +21,15 @@ B) Quotient Operator<br>
 D) Division<br>
 
 
-4) Choose a right statement.<br>
+4) Which of the following is a right statement.<br>
 <b>A) int my_age = 10;</b><br>
 B) int my,age = 10;<br>
 C) int my age = 10;<br>
 D) All are right<br>
 
 5) Each statement in a C program should end with ?<br>
-<b>A) Semicolon ;</b><br>
-B) Colon :<br>
-C) Period . (dot symbol)<br>
+<b>A); (Semicolon )</b><br>
+B) (Colon) :<br>
+C) . (dot symbol)<br>
 D) None of the above.<br>
 
