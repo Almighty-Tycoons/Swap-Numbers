@@ -1,32 +1,35 @@
 ## <b> Pre-test
-#### Please attempt the following questions
+#### Please attempt the following questions</b>
 
-1) Interference occurs due to _______ of the light.<br>
-<b>a) Wave nature<br></b>
-b) particle nature<br>
-c) both a and b<br>
-d) none of these<br>
+1) What is an Identifier in C Language.?<br>
+A) Name of a Function or Variable<br>
+B) Name of a Macros<br>
+C) Name of Structure or Union<br>
+<b>D) All the above.</b><br>
 
-2) Superposition of crest over crest results in __________ .<br>
-a) Destructive interference<br>
-<b> b) Constructive interference<br></b>
-c) Diffraction<br>
-d) Polarization<br>
+2) Choose a right statement.<br>
+A) Redeclaration of a variable is Ok.<br>
+B) Redefinition of a variable is not Ok.<br>
+C) Definition of a variable uses memory blocks.<br>
+<b>D) All the above.</b><br>
 
-3) If two waves with amplitude (y1) and (y2) travelling in the same medium reach at a point in the medium, then the resultant displacement at that point in the medium, will be given by __________ .<br>
-a) y1 -y2<br>
-<b>b) y1 + y2<br></b>
-c) y1 / y2<br>
-d) y1 * y2<br>
 
-4) The condition for destructive interference is: the path difference should be equal to __________. <br>
-<b>a) Odd integral multiple of wavelength<br></b>
-b) Integral multiple of wavelength<br>
-c) Odd integral multiple of half wavelength<br>
-d) Integral multiple of half wavelength<br>
+3) Operator % in C Language is called.?<br>
+A) Percentage Operator<br>
+B) Quotient Operator<br>
+<b>C) Modulus</b><br>
+D) Division<br>
 
-5) In Newton's ring experiment, the diameter of the dark rings is proportional to __________ .<br>
-a) Odd natural numbers<br>
-b) Even natural numbers<br>
-c) Complex numbers<br>
-<b>d) square root of natural numbers<br></b>
+
+4) Choose a right statement.<br>
+<b>A) int my_age = 10;</b><br>
+B) int my,age = 10;<br>
+C) int my age = 10;<br>
+D) All are right<br>
+
+5) Each statement in a C program should end with ?<br>
+<b>A) Semicolon ;</b><br>
+B) Colon :<br>
+C) Period . (dot symbol)<br>
+D) None of the above.<br>
+
