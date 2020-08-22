@@ -6,7 +6,7 @@ Experiment 1: Write a program that swaps values of two variables using a third v
 
 ### 1. Story Outline:
 
-Swapping is a technique in which variables exchange their data values. In computer programming, the act of swapping two variables refers to mutually exchange the data of the variables. Usually, this is done with the data in memory.
+Swapping is a technique in which variables exchange their data values. In computer programming, the act of swapping two variables refers to mutually exchange the data of the variables.
 
 ### 2. Story:
 
