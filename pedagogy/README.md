@@ -41,10 +41,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u>Expository
 ###### Assessment Method: Formative assessment 
 
-<u> <b>Description: </b> Simulator will show code of swapping of two numbers. </u>
-<br>
- Simulator will take input and then it will show the whole code to the user, when the user clicks on <b>Next</b> button the lines of code will execute one by one and at the same time the <b>Memory</b> box will show how these lines of code actually works.
-
+<u> <b>Description: </b> During the experiment, student will perceive at which memory block which value exists.It means studnet is familiar with the changes in the values of the variables.
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
