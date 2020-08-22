@@ -1,7 +1,7 @@
 ## Storyboard (Round 2)
 
 
-Experiment 1: Write a program swaps values of two variables using a third variable.
+Experiment 1: Write a program that swaps values of two variables using a third variable.
 
 
 ### 1. Story Outline:
