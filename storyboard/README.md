@@ -10,8 +10,7 @@ Swapping is a technique in which variables exchange their data values. In comput
 
 ### 2. Story:
 
-This experiment is based on the swapping of two numbers using the third variable from the given input of the user. The experiment will start with the input given by the user, after that with the help of the program user will swap those (values in) numbers from their memory location. In this experiment firstly the value of num1 will be assigned to the variable named "temp" and then the value of num2 will be assigned into the value of num1 and after that, the value of "temp" will be assigned into the value of num2. And this is how the program will swap those numbers.
-
+This experiment is based on the swapping of two numbers using the third variable from the given input of the user. The experiment will start with the input given by the user, after that with the help of the program user will swap those (values in) numbers from their memory location. In this experiment firstly the value of num1 will be assigned to the variable named "temp" and then the value of num2 will be assigned into the value of num1 and after that, the value of "temp" will be assigned into the value of num2. In the last, values of the variables will be swapped.
 
 #### 2.1 Set the Visual Stage Description:
 
