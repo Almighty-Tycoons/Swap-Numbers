@@ -90,59 +90,59 @@
 
   const myQuestions = [
     {
-      question: "C language is known as?",  ///// Write the question inside double quotes
+      question: "What is an Identifier in C Language.?",  ///// Write the question inside double quotes
       answers: {
-        a: "High level",                  ///// Write the option 1 inside double quotes
-        b: "low level",                  ///// Write the option 2 inside double quotes
-        c: "middle level",                  ///// Write the option 3 inside double quotes
-        d: "none of the above"                   ///// Write the option 4 inside double quotes
+        a: "Name of a Function or Variable",                  ///// Write the option 1 inside double quotes
+        b: "Name of a Macros",                  ///// Write the option 2 inside double quotes
+        c: "Name of Structure or Union",                  ///// Write the option 3 inside double quotes
+        d: "All the above."                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "what is the only function c program must contains?",  ///// Write the question inside double quotes
+      question: "Choose a right statement.",  ///// Write the question inside double quotes
       answers: {
-        a: "start",                  ///// Write the option 1 inside double quotes
-        b: "system",                  ///// Write the option 2 inside double quotes
-        c: "main",                  ///// Write the option 3 inside double quotes
-        d: "program"                   ///// Write the option 4 inside double quotes
+        a: "Redeclaration of a variable is Ok.",                  ///// Write the option 1 inside double quotes
+        b: "Redefinition of a variable is not Ok.",                  ///// Write the option 2 inside double quotes
+        c: "Definition of a variable uses memory blocks.",                  ///// Write the option 3 inside double quotes
+        d: "All the above."                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     ///// this line
 
     {
-      question: "What is the corect value to returning to operating system upon the succes full compeletion of code?",
+      question: "Operator % in C Language is called.?",
       answers: {
-        a: "-1",
-        b: "1",
-        c: "0",
-        d: "program do not retun value"
-      },
-      correctAnswer: "d"
-    },
-
-    {
-      question: "Choose correct way to assign values to a variable in C?",
-      answers: {
-        a: "ina a = 5",
-        b: "a = 'hello world'",
-        c: "String a = 'hello world'",
-        d: "a and c"
-      },
-      correctAnswer: "d"
-    },
-
-    {
-      question: "Which of the followeing is true about c language?",
-      answers: {
-        a: "Platform idependent",
-        b: "Machine independent",
-        c: "High level language",
-        d: "none of the above"
+        a: "Percentage Operator",
+        b: "Quotient Operator",
+        c: "Modulus",
+        d: "Division"
       },
       correctAnswer: "c"
+    },
+
+    {
+      question: "Choose a right statement.",
+      answers: {
+        a: "int my_age = 10;",
+        b: "int my,age = 10;",
+        c: " int my age = 10;",
+        d: "All are right"
+      },
+      correctAnswer: "a"
+    },
+
+    {
+      question: "Each statement in a C program should end with ?",
+      answers: {
+        a: "Semicolon ;",
+        b: "Colon :",
+        c: "Period . (dot symbol)",
+        d: "None of the above."
+      },
+      correctAnswer: "a"
     },
 
 
