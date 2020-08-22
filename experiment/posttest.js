@@ -90,25 +90,25 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: " What will be the value of temp after execution of given code if a=3 and b=6: temp=a; a=b; b=temp; ",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "3",                  ///// Write the option 1 inside double quotes
+        b: "6",                  ///// Write the option 2 inside double quotes
+        c: "9",                  ///// Write the option 3 inside double quotes
+        d: "not determine"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Which code will perform swapping(exchange) of variables",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "a=b; b=a;",                  ///// Write the option 1 inside double quotes
+        b: "temp=a; b=temp; a=b;",                  ///// Write the option 2 inside double quotes
+        c: "temp=a; a=b; b=temp;",                  ///// Write the option 3 inside double quotes
+        d: "Both b and c"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
     
