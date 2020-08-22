@@ -28,7 +28,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>Assign values to  variables <br> |Remember | Assign 
 2.| User will be able to: <br> Understand the usability of a temporary variable  | Understand  | Understand
-3.| User will be able to: <br> Exchange values of two variables| Apply | Exchange
+3.| User will be able to: <br>Apply the concept of exchange values of two variables| Apply | Apply
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
