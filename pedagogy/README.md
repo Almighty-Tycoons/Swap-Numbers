@@ -41,7 +41,8 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u>Expository
 ###### Assessment Method: Formative assessment 
 
-<u> <b>Description: </b> During the experiment, student will perceive at which memory block which value exists. It means student is familiar with the changes in the values of the variables, and all the results will be known to the student during experiment, so it is a case of expository instructional strategy.
+<u> <b>Description: </b> During the experiment, student will perceive at which memory block which value exists. It means student is familiar with the changes in the values of the variables, and all the results will be known to the student during experiment. In simulator when user inputs the value which is to be define and the value is inncorrect
+the virtual simulator will display an alert message.Simulator will take input and then it will show the whole code to the user, when the user clicks on <b>Next</b> button the lines of code will execute one by one and at the same time the <b>Memory</b> block will show how these lines of code actually works.
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
