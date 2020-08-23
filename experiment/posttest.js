@@ -102,7 +102,7 @@
     									                  ///// this line
 
     {
-      question: '#include<stdio.h>   main() {for()printf("Hello");}',
+      question: '#include<stdio.h> <br>  main()<br> {printf("Hello");}',
       answers: {
         a: "Compile error",
         b: " No output",
@@ -113,12 +113,12 @@
     },
     
     {
-      question: 'void main() { printf("includehelp.com\rOK\n"); printf("includehelp.com\b\b\bOk\n"); }',
+      question: 'void main()<br> { printf("includehelp.com\rOK\n");<br> printf("includehelp.com\b\b\bOk\n"); }',
       answers: {
         a: "OK includehelp.ok",
         b: "OK includehelp.okm",
         c: "includehelp.com includehelp.okm",
-        d: "OKcludehelp.com    includehelp.okm"
+        d: "OKcludehelp.com  <br>  includehelp.okm"
       },
       correctAnswer: "d"
     },
@@ -135,10 +135,10 @@
     },
     
     {
-      question: 'int main() { int a=100; printf("%d\n"+1,a); printf("Value is = %d"+3,a); return 0; }',
+      question: 'Output will be:<br> int main()<br> { int a=100; <br>printf("%d\n",a); <br>int b=a;<br>int temp=b;<br>printf("Value is = %d",temp);<br> return 0; }',
       answers: {
         a: "103",
-        b: "d    ue is = 100",
+        b: " 100<br>Value is = 100",
         c: "Value is = 103",
         d: "ERROR"
       },
