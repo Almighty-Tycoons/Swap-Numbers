@@ -1,1 +1,1 @@
-C/C++ Programming Lab
+Programming for Problem Solving Lab
