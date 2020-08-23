@@ -14,8 +14,8 @@ temp = num1;<br>
 num1=num2;<br>
 num2=temp;<br>
 
-Now the values of num1 & num2 are exchanged
+Now the values of num1 & num2 are exchanged.
 
 While this is conceptually simple and in many cases the only convenient way to swap two variables, but it alos uses extra memory.<br>
 <b>Application of swaping:</b><br>
-Swap operation may need to be performed many times, as in sorting algorithms
+Swap operation may need to be performed many times, as in sorting algorithms.
