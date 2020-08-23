@@ -4,8 +4,8 @@ Q 1 - Which code will perform swapping(exchange) of variables.<br>
 A.  a=b; b=a;<br>
 B.  temp=a; b=temp; a=b;<br>
 <b>C.  temp=a; a=b; b=temp;</b><br>
-D   Both b and c<br>
-
+D.  Both b and c<br>
+<br>
 Q 2 -Output will be:<br> #include<stdio.h> <br>main()<br> {for()printf("Hello");} <br>
 A.  Compile error<br>
 B.  No output<br>
