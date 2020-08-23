@@ -1,4 +1,4 @@
-The simplest and probably most widely used method to swap two variables is to use a third temporary variable.Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables.
+The simplest and probably most widely used method to swap two variables is to use a third temporary variable.Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables.<br>
 <b>Algorithm of swapping</b>
 define swap (x, y)<br>
 temp := x<br>
