@@ -10,7 +10,7 @@ Q 2 -Output will be:<br> #include<stdio.h> <br>main()<br> {printf("Hello");} <br
 A.  Compile error<br>
 B.  No output<br>
 <b>C.  Prints “Hello” once.</b><br>
-D.  Infinite loop<br>
+D.  Infinite loop<br><br>
 
 Q 3 -Output will be:<br> void main() <br>{ printf("includehelp.com\rOK\n");<br> printf("includehelp.com\b\b\bOk\n"); }<br>
 
