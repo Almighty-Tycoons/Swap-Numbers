@@ -58,7 +58,7 @@ Q2-  What will be the value of temp after execution of given code if a=3 and b=6
 
 Difficulty level: Understand<br>
 Q3- What will be the data type of the variables ?<br>
-(a) int</b><br>
+(a) int<br>
 (b) float<br>
 (c) char<br>
 <b>(d) Both (a) or (b) </b><br>
@@ -67,7 +67,7 @@ Difficulty level: Apply<br>
 Q4- Which code will perform swapping(exchange) of variables ?<br>
 (a) a=b; b=a;<br>
 (b) temp=a; b=temp; a=b;<br>
-<b>(c) temp=a; a=b; b=temp;</><br>
+<b>(c) temp=a; a=b; b=temp;</b><br>
 (d) Both b and c<br>
 
 Difficulty level: Remember<br>
