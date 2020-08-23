@@ -50,11 +50,11 @@ Q1- Special symbol permitted with in the identifier name.<br>
 (d) . <br>
 
 Difficuty level: Apply<br>
-Q2-  How many variables will be assigned for swapping of two numbers using third variable ?<br>
-(a) 1 <br>
+Q2-  What will be the value of temp after execution of given code if a=3 and b=6: <br>temp=a; <br>a=b; <br>b=temp; ?<br>
+(a) 6 <br>
 <b>(b) 3 </b> <br>
-(c) 6 <br>
-(d) Non of them <br>
+(c) 9 <br>
+(d) Non determine <br>
 
 Difficulty level: Understand<br>
 Q3- What will be the data type of the variables ?<br>
@@ -64,11 +64,11 @@ Q3- What will be the data type of the variables ?<br>
 <b>(d) Both (a) or (b) </b><br>
 
 Difficulty level: Apply<br>
-Q4- If we assign two variable int and one variable float then what type of error will perform in that program ?<br>
-<b>(a) Run time error</b><br>
-(b) Compile time error<br>
-(c) Logical error<br>
-(d) Non of above<br>
+Q4- Which code will perform swapping(exchange) of variables ?<br>
+(a) a=b; b=a;<br>
+(b) temp=a; b=temp; a=b;<br>
+<b>(c) temp=a; a=b; b=temp;</><br>
+(d) Both b and c<br>
 
 Difficulty level: Remember<br>
 Q5-  While swapping of two variables which operator is used for assignment ?<br>
