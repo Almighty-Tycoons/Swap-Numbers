@@ -1,31 +1,21 @@
-<h2>Using a temporary variable</h2>
-
-The simplest and probably most widely used method to swap two variables is to use a third temporary variable:
-
-define swap (x, y)
-temp := x
-x := y
-y := temp
-
-
-<b>Step:1 Declare 3 variables</b>
-
-int num1,num2,temp;
-
-
-<b>Step:2 Input values in two variables.</b>
-
-printf("enter values of num1, num2");
-scanf("%d %d",&num1,&num2);
-
-
-<b>Step:3 Transfer the value of num1 in temp, then value of num2 in num1 and in last value of temp in num2.</b>
-
-temp = num1;
-num1=num2;
-num2=temp;
-
+The simplest and probably most widely used method to swap two variables is to use a third temporary variable.Swapping is a technique in which variables exchange their values. In computer programming, the act of swapping two variables refers to mutually exchange the values of the variables.
+<b>Algorithm of swapping</b>
+define swap (x, y)<br>
+temp := x<br>
+x := y<br>
+y := temp<br>
+Declare 3 variables of data type int or float and set default valur of temp is zero.<br>
+int num1,num2,temp=0;<br>
+Take input with the help of scanf function.<br>
+printf("enter values of num1, num2");<br>
+scanf("%d %d",&num1,&num2);<br>
+Transfer the value of num1 in temp, then value of num2 in num1 and in last value of temp in num2.<br>
+temp = num1;<br>
+num1=num2;<br>
+num2=temp;<br>
 
 Now the values of num1 & num2 are exchanged
 
-While this is conceptually simple and in many cases the only convenient way to swap two variables, it uses extra memory. Although this should not be a problem in most applications, the sizes of the values being swapped may be huge (which means the temporary variable may occupy a lot of memory as well), or the swap operation may need to be performed many times, as in sorting algorithms.
+While this is conceptually simple and in many cases the only convenient way to swap two variables, but it alos uses extra memory.<br>
+<b>Application of swaping:</b><br>
+Swap operation may need to be performed many times, as in sorting algorithms
