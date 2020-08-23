@@ -90,17 +90,6 @@
 
   const myQuestions = [
     {
-      question: " What will be the value of temp after execution of given code if a=3 and b=6: temp=a; a=b; b=temp; ",  ///// Write the question inside double quotes
-      answers: {
-        a: "3",                  ///// Write the option 1 inside double quotes
-        b: "6",                  ///// Write the option 2 inside double quotes
-        c: "9",                  ///// Write the option 3 inside double quotes
-        d: "not determine"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },
-
-    {
       question: "Which code will perform swapping(exchange) of variables",  ///// Write the question inside double quotes
       answers: {
         a: "a=b; b=a;",                  ///// Write the option 1 inside double quotes
@@ -111,38 +100,49 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
-    
+
     {
-      question: "This is question n?",
+      question: '#include<stdio.h>   main() {for()printf("Hello");}',
       answers: {
-        a: "Option 1",
-        b: "Option 2",
-        c: "Option 3",
-        d: "Option 4"
+        a: "Compile error",
+        b: " No output",
+        c: "Prints “Hello” once.",
+        d: "Infinite loop"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     
     {
-      question: "This is question n?",
+      question: 'void main() { printf("includehelp.com\rOK\n"); printf("includehelp.com\b\b\bOk\n"); }',
       answers: {
-        a: "Option 1",
-        b: "Option 2",
-        c: "Option 3",
-        d: "Option 4"
+        a: "OK includehelp.ok",
+        b: "OK includehelp.okm",
+        c: "includehelp.com includehelp.okm",
+        d: "OKcludehelp.com    includehelp.okm"
       },
-      correctAnswer: "c"
+      correctAnswer: "d"
     },
     
     {
-      question: "This is question n?",
+      question: 'void main(){ int a=0; a=5||2|1; printf("%d",a); }',
       answers: {
-        a: "Option 1",
-        b: "Option 2",
-        c: "Option 3",
-        d: "Option 4"
+        a: "1",
+        b: "7",
+        c: "0",
+        d: "8"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
+    },
+    
+    {
+      question: 'int main() { int a=100; printf("%d\n"+1,a); printf("Value is = %d"+3,a); return 0; }',
+      answers: {
+        a: "103",
+        b: "d    ue is = 100",
+        c: "Value is = 103",
+        d: "ERROR"
+      },
+      correctAnswer: "b"
     },
 
 
