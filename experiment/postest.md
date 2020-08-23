@@ -6,7 +6,7 @@ B.  temp=a; b=temp; a=b;<br>
 <b>C.  temp=a; a=b; b=temp;</b><br>
 D.  Both b and c<br>
 <br>
-Q 2 -Output will be:<br> #include<stdio.h> <br>main()<br> {for()printf("Hello");} <br>
+Q 2 -Output will be:<br> #include<stdio.h> <br>main()<br> {printf("Hello");} <br>
 A.  Compile error<br>
 B.  No output<br>
 <b>C.  Prints “Hello” once.</b><br>
@@ -25,8 +25,8 @@ B. 0<br>
 C.  7<br>
 <b>D.  1</b><br>
 
-Q 5 -Output will be:<br> int main()<br> { int a=100; <br>printf("%d\n"+1,a); <br>printf("Value is = %d"+3,a);<br> return 0; }<br>
+Q 5 -Output will be:<br> int main()<br> { int a=100; <br>printf("%d\n",a); <br>int b=a;<br>int temp=b;<br>printf("Value is = %d",temp);<br> return 0; }<br>
 A. 100<br> 100<br>
-<b>B. d<br>ue is = 100</b><br>
+<b>B. 100<br>Value is = 100</b><br>
 C.  101, <br>Value is = 103<br>
 D.  ERROR<br>
