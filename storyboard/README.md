@@ -84,7 +84,7 @@ There are pitfalls in the simulator, mentioned below:
 
 1. User will get an alert message if user presses "OK" button without providing the inputs.
 2. User will get an alert message if user enter string(alphabets or symbols) as inputs.
-3. If user provide same values in both the input fields, pop-up box will appear with message "provide diffrent inputs".
+3. If user provide same values in both the input fields, pop-up box will appear with message "provide different inputs".
 
 
 ##### 2.6 Conclusion:
